@@ -13,6 +13,14 @@
         "type": "fa",
         "value": "fa-solid fa-hospital"
       },
+      "tags": [
+        "klinik",
+        "ayar",
+        "kullanıcı",
+        "profil",
+        "davet",
+        "yetki"
+      ],
       "children": [
         {
           "id": "clinic-profile",
@@ -24,6 +32,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "klinik",
+            "profil",
+            "adres",
+            "konum",
+            "logo",
+            "iletişim",
+            "ayar"
+          ],
           "md": {
             "slug": "tr/clinic-profile",
             "fileUrl": "/help/tr/tr-clinic-profile.md"
@@ -39,6 +56,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "kullanıcı",
+            "davet",
+            "doktor",
+            "e-posta",
+            "yetki",
+            "klinik",
+            "ekip"
+          ],
           "md": {
             "slug": "tr/clinic-user-invite",
             "fileUrl": "/help/tr/tr-clinic-user-invite.md"
@@ -56,6 +82,13 @@
         "type": "fa",
         "value": "fa-solid fa-hotel"
       },
+      "tags": [
+        "otel",
+        "transfer",
+        "konaklama",
+        "hizmet",
+        "fiyat"
+      ],
       "children": [
         {
           "id": "hotels-transfers-doc",
@@ -67,6 +100,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "otel",
+            "transfer",
+            "konaklama",
+            "hizmet",
+            "fiyat",
+            "kayıt",
+            "yönetim"
+          ],
           "md": {
             "slug": "tr/hotels-transfers",
             "fileUrl": "/help/tr/tr-hotels-transfers.md"
@@ -84,6 +126,17 @@
         "type": "fa",
         "value": "fa-solid fa-tooth"
       },
+      "tags": [
+        "tedavi",
+        "plan",
+        "işlem",
+        "ekleme",
+        "düzenleme",
+        "indirim",
+        "aşama",
+        "animasyon",
+        "ödeme"
+      ],
       "children": [
         {
           "id": "treatment-add",
@@ -95,6 +148,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "tedavi",
+            "işlem",
+            "ekleme",
+            "diş",
+            "arama",
+            "plan",
+            "seçim"
+          ],
           "md": {
             "slug": "tr/treatment-add",
             "fileUrl": "/help/tr/tr-treatment-add.md"
@@ -110,6 +172,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "tedavi",
+            "düzenleme",
+            "silme",
+            "sıralama",
+            "plan",
+            "işlem",
+            "satır"
+          ],
           "md": {
             "slug": "tr/treatment-edit",
             "fileUrl": "/help/tr/tr-treatment-edit.md"
@@ -125,6 +196,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "tedavi",
+            "düzenleme",
+            "aşama",
+            "faz",
+            "sıralama",
+            "randevu",
+            "süreç"
+          ],
           "md": {
             "slug": "tr/treatment-edit-long",
             "fileUrl": "/help/tr/tr-treatment-edit_long.md"
@@ -140,6 +220,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "indirim",
+            "fiyat",
+            "tutar",
+            "yüzde",
+            "sabit",
+            "bazlı",
+            "toplam"
+          ],
           "md": {
             "slug": "tr/treatment-discount",
             "fileUrl": "/help/tr/tr-treatment-discount.md"
@@ -155,6 +244,16 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "indirim",
+            "fiyat",
+            "tutar",
+            "yüzde",
+            "sabit",
+            "genel",
+            "bazlı",
+            "detay"
+          ],
           "md": {
             "slug": "tr/treatment-discount-long",
             "fileUrl": "/help/tr/tr-treatment-discount_long.md"
@@ -170,6 +269,16 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "aşama",
+            "faz",
+            "seans",
+            "cerrahi",
+            "randevu",
+            "plan",
+            "işlem",
+            "yönetim"
+          ],
           "md": {
             "slug": "tr/treatment-phases",
             "fileUrl": "/help/tr/tr-treatment-phases.md"
@@ -185,6 +294,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "ödeme",
+            "tahsilat",
+            "borç",
+            "tutar",
+            "toplam",
+            "finans",
+            "para"
+          ],
           "md": {
             "slug": "tr/payment-add",
             "fileUrl": "/help/tr/tr-payment-add.md"
@@ -200,6 +318,15 @@
             "type": "img",
             "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
           },
+          "tags": [
+            "animasyon",
+            "yapayzeka",
+            "link",
+            "paylaşım",
+            "whatsapp",
+            "sunum",
+            "tedavi"
+          ],
           "md": {
             "slug": "tr/treatment-animation",
             "fileUrl": "/help/tr/tr-treatment-animation.md"
