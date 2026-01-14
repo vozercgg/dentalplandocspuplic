@@ -1,13 +1,3 @@
----
-id: "tr-clinic-users"
-version: "v2.0"
-slug: "Klinik/kullanici-yonetimi"
-title: "Doktor Ekleme ve Davet Yönetimi"
-lang: "tr"
-category: "Klinik Ayarları"
-weight: 15
-summary: "Sisteme yeni doktor ekleme, davet gönderme ve davetleri yönetme."
----
 
 # Doktor Ekleme ve Davet Yönetimi
 

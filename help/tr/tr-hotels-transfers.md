@@ -1,13 +1,3 @@
----
-id: "tr-hotels-transfers"
-version: "v1.0"
-slug: "konaklama-transfer/otel-transfer-yonetimi"
-title: "Otel ve Transfer Yönetimi"
-lang: "tr"
-category: "Konaklama & Transfer"
-weight: 10
-summary: "Otel ve Transfer hizmetlerini tanımlama, fiyatlandırma ve yönetme."
----
 
 # Otel ve Transfer Yönetimi
 

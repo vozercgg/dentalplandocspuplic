@@ -1,13 +1,4 @@
----
-id: "tr-treatment-edit"
-version: "v1.0"
-slug: "Tedavi/tedavi-duzenleme"
-title: "Plan Düzenleme ve Silme"
-lang: "tr"
-category: "Tedavi"
-weight: 20
-summary: "Tedavi satırlarının sırasını değiştirme veya listeden silme."
----
+
 
 # Plan Düzenleme ve Silme
 

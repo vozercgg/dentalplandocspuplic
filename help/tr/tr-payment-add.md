@@ -1,13 +1,4 @@
----
-id: "tr-payment-add"
-version: "v2.0"
-slug: "Tedavi/odeme-ekleme"
-title: "Ödeme Ekleme ve Takibi"
-lang: "tr"
-category: "Tedavi"
-weight: 40
-summary: "Hasta tedavi planına tahsilat ekleme, kalan borcu görme ve ödeme düzenleme."
----
+
 
 # Ödeme Ekleme ve Takibi
 

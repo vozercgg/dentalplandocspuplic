@@ -1,13 +1,4 @@
----
-id: "tr-treatment-phases"
-version: "v1.0"
-slug: "Tedavi/faz-yonetimi"
-title: "Faz (Aşama) Yönetimi"
-lang: "tr"
-category: "Tedavi"
-weight: 15
-summary: "Tedavi planına faz ekleme, isimlendirme ve işlemleri fazlara taşıma."
----
+
 
 # Faz (Aşama) Yönetimi
 

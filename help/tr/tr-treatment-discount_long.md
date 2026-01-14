@@ -1,13 +1,3 @@
----
-id: "tr-treatment-discount-setup"
-version: "v1.2"
-slug: "Tedavi/indirim-tanimlama"
-title: "İndirim Tanımlama"
-lang: "tr"
-category: "Tedavi"
-weight: 30
-summary: "Hasta planında indirim uygulama: Toplam İndirim (genel) ve Fiyat Düzenle (satır bazlı) yöntemleri."
----
 
 # Tedavi Planına İndirim Tanımlama
 

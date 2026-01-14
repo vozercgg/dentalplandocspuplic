@@ -1,13 +1,3 @@
----
-id: "tr-clinic-profile"
-version: "v2.1"
-slug: "Klinik/profil-bilgileri"
-title: "Klinik Bilgilerini Düzenleme"
-lang: "tr"
-category: "Klinik Ayarları"
-weight: 10
-summary: "Klinik adı, adres, logo ve iletişim bilgilerini güncelleme."
----
 
 # Klinik Bilgilerini Düzenleme
 

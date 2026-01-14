@@ -1,13 +1,3 @@
----
-id: "tr-treatment-add"
-version: "v1.0"
-slug: "Tedavi/islem-ekleme"
-title: "Tedavi İşlemi Ekleme"
-lang: "tr"
-category: "Tedavi"
-weight: 10
-summary: "Hasta planına yeni bir tedavi işlemi veya hizmet ekleme adımları."
----
 
 # Hasta Planına İşlem Ekleme
 

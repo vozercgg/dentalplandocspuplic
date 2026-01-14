@@ -1,13 +1,3 @@
----
-id: "tr-treatment-animation"
-version: "v1.0"
-slug: "tedavi/animasyon-olusturma-paylasma"
-title: "Tedavi Animasyonu Oluşturma ve Paylaşma"
-lang: "tr"
-category: "Animasyon"
-weight: 30
-summary: "Hastanın tedavi planını 3D animasyona dönüştürme, yapay zeka ile anlatma ve paylaşma."
----
 
 # Tedavi Animasyonu Oluşturma ve Paylaşma
 

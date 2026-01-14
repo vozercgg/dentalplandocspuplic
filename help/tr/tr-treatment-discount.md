@@ -1,13 +1,3 @@
----
-id: "tr-treatment-discounts"
-version: "v1.0"
-slug: "Tedavi/indirim-uygulama"
-title: "İndirim Uygulama"
-lang: "tr"
-category: "Tedavi"
-weight: 30
-summary: "Genel toplama veya seçili satırlara indirim uygulama adımları."
----
 
 # Tedavi Planına İndirim Uygulama
 

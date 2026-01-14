@@ -1,13 +1,4 @@
----
-id: "tr-treatment-edit-from-patient"
-version: "v1.1"
-slug: "Tedavi/tedavi-duzenleme"
-title: "Tedavi Düzenleme ve Faz Yönetimi"
-lang: "tr"
-category: "Tedavi"
-weight: 20
-summary: "Hasta planındaki tedavi satırlarını düzenleme: sıralama, faz (aşama) yapısı, taşıma ve plan okunurluğu."
----
+
 
 # Tedavi Planı Düzenleme ve Faz Yönetimi
 
