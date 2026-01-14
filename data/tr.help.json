@@ -1,0 +1,211 @@
+{
+  "lang": "tr",
+  "version": 1,
+  "baseUrl": "/help",
+  "root": [
+    {
+      "id": "clinic-settings",
+      "type": "folder",
+      "title": "Klinik Ayarları",
+      "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
+      "order": 1,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-hospital"
+      },
+      "children": [
+        {
+          "id": "clinic-profile",
+          "type": "doc",
+          "title": "Klinik Profili",
+          "description": "Klinik profil bilgileri nasıl düzenlenir?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/clinic-profile",
+            "fileUrl": "/help/tr/tr-clinic-profile.md"
+          }
+        },
+        {
+          "id": "clinic-user-invite",
+          "type": "doc",
+          "title": "Kullanıcı Daveti",
+          "description": "Kliniğe kullanıcı nasıl davet edilir?",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/clinic-user-invite",
+            "fileUrl": "/help/tr/tr-clinic-user-invite.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hotels-transfers",
+      "type": "folder",
+      "title": "Otel & Transferler",
+      "description": "Konaklama ve transfer süreçleri",
+      "order": 2,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-hotel"
+      },
+      "children": [
+        {
+          "id": "hotels-transfers-doc",
+          "type": "doc",
+          "title": "Otel & Transfer Yönetimi",
+          "description": "Otel ve transfer bilgileri nasıl yönetilir?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/hotels-transfers",
+            "fileUrl": "/help/tr/tr-hotels-transfers.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "treatment-plan",
+      "type": "folder",
+      "title": "Tedavi Planı",
+      "description": "Tedavi ekleme, düzenleme, indirim, aşamalar ve animasyon",
+      "order": 3,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-tooth"
+      },
+      "children": [
+        {
+          "id": "treatment-add",
+          "type": "doc",
+          "title": "Tedavi Ekleme",
+          "description": "Yeni tedavi nasıl eklenir?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-add",
+            "fileUrl": "/help/tr/tr-treatment-add.md"
+          }
+        },
+        {
+          "id": "treatment-edit",
+          "type": "doc",
+          "title": "Tedavi Düzenleme",
+          "description": "Mevcut tedavi nasıl düzenlenir?",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-edit",
+            "fileUrl": "/help/tr/tr-treatment-edit.md"
+          }
+        },
+        {
+          "id": "treatment-edit-long",
+          "type": "doc",
+          "title": "Tedavi Düzenleme (Detaylı)",
+          "description": "Tedavi düzenleme ekranının tüm detayları",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-edit-long",
+            "fileUrl": "/help/tr/tr-treatment-edit_long.md"
+          }
+        },
+        {
+          "id": "treatment-discount",
+          "type": "doc",
+          "title": "Tedavi İndirimi",
+          "description": "Tedaviye indirim nasıl uygulanır?",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-discount",
+            "fileUrl": "/help/tr/tr-treatment-discount.md"
+          }
+        },
+        {
+          "id": "treatment-discount-long",
+          "type": "doc",
+          "title": "Tedavi İndirimi (Detaylı)",
+          "description": "Tedavilerde gelişmiş indirim ayarları",
+          "order": 5,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-discount-long",
+            "fileUrl": "/help/tr/tr-treatment-discount_long.md"
+          }
+        },
+        {
+          "id": "treatment-phases",
+          "type": "doc",
+          "title": "Tedavi Aşamaları",
+          "description": "Tedavi aşamaları nasıl tanımlanır?",
+          "order": 6,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-phases",
+            "fileUrl": "/help/tr/tr-treatment-phases.md"
+          }
+        },
+        {
+          "id": "payment-add",
+          "type": "doc",
+          "title": "Ödeme Ekleme",
+          "description": "Tedavi planına ödeme nasıl eklenir?",
+          "order": 7,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/payment-add",
+            "fileUrl": "/help/tr/tr-payment-add.md"
+          }
+        },
+        {
+          "id": "treatment-animation",
+          "type": "doc",
+          "title": "Tedavi Animasyonu",
+          "description": "Tedavi animasyonları nasıl oluşturulur?",
+          "order": 8,
+          "icon": {
+            "type": "img",
+            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+          },
+          "md": {
+            "slug": "tr/treatment-animation",
+            "fileUrl": "/help/tr/tr-treatment-animation.md"
+          }
+        }
+      ]
+    }
+  ]
+}
