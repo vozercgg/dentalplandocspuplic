@@ -10,8 +10,8 @@
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
       "order": 1,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-hospital"
+        "type": "img",
+        "value": "dental.png"
       },
       "tags": [
         "klinik",
@@ -79,8 +79,8 @@
       "description": "Konaklama ve transfer süreçleri",
       "order": 2,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-hotel"
+        "type": "img",
+        "value": "travel-luggage.png"
       },
       "tags": [
         "otel",
@@ -123,8 +123,8 @@
       "description": "Tedavi ekleme, düzenleme, indirim, aşamalar ve animasyon",
       "order": 3,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-tooth"
+        "type": "img",
+        "value": "implant.png"
       },
       "tags": [
         "tedavi",
