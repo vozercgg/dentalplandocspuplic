@@ -14,4 +14,4 @@ Bir hasta için tedavi planı oluştururken yapılacak ilk adımdır.
 
 İşlem anında listeye yeni bir satır olarak eklenir. Aynı işlemi birden fazla kez eklemek için (örn. 3 diş için) tekrar tıklayabilirsiniz.
 
-> 👉 **Sıradaki Adım:** İşlemleri gruplamak için [Faz (Aşama) Yönetimi](../help/tr/tr-treatment-edit.md) dokümanına bakabilirsiniz.
+> 👉 **Sıradaki Adım:** İşlemleri gruplamak için [Faz (Aşama) Yönetimi](../tr/tr-treatment-edit.md) dokümanına bakabilirsiniz.
