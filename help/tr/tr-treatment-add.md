@@ -7,8 +7,8 @@ Bir hasta için tedavi planı oluştururken yapılacak ilk adımdır.
 
 ## Adım Adım Ekleme
 
-1.  **Tedavi** sekmesindeki arama çubuğuna yapılacak işlemi yazın (Örn: Dolgu).
-2.  Diş şemasından işlem tedavi uygulanacak dişleri seçin
+1.  Diş şemasından işlem tedavi uygulanacak dişleri seçin
+2.  **Tedavi** sekmesindeki arama çubuğuna yapılacak işlemi yazın (Örn: Dolgu).
 3.  Listeden ilgili tedaviyi bulun.  
 4.  Tedavinin üzerine **tıklayın**.
 

@@ -10,8 +10,8 @@
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
       "order": 1,
       "icon": {
-        "type": "img",
-        "value": "dental.png"
+        "type": "fa",
+        "value": "fa-solid fa-hospital"
       },
       "tags": [
         "klinik",
@@ -30,7 +30,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/clinic-profile.png"
           },
           "tags": [
             "klinik",
@@ -54,7 +54,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/user-add.png"
           },
           "tags": [
             "kullanıcı",
@@ -79,8 +79,8 @@
       "description": "Konaklama ve transfer süreçleri",
       "order": 2,
       "icon": {
-        "type": "img",
-        "value": "travel-luggage.png"
+        "type": "fa",
+        "value": "fa-solid fa-hotel"
       },
       "tags": [
         "otel",
@@ -98,7 +98,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/travel-luggage.png"
           },
           "tags": [
             "otel",
@@ -123,8 +123,8 @@
       "description": "Tedavi ekleme, düzenleme, indirim, aşamalar ve animasyon",
       "order": 3,
       "icon": {
-        "type": "img",
-        "value": "implant.png"
+        "type": "fa",
+        "value": "fa-solid fa-tooth"
       },
       "tags": [
         "tedavi",
@@ -146,7 +146,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/implant.png"
           },
           "tags": [
             "tedavi",
@@ -170,7 +170,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "treatment-edit.png"
           },
           "tags": [
             "tedavi",
@@ -187,30 +187,6 @@
           }
         },
         {
-          "id": "treatment-edit-long",
-          "type": "doc",
-          "title": "Tedavi Düzenleme (Detaylı)",
-          "description": "Tedavi düzenleme ekranının tüm detayları",
-          "order": 3,
-          "icon": {
-            "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
-          },
-          "tags": [
-            "tedavi",
-            "düzenleme",
-            "aşama",
-            "faz",
-            "sıralama",
-            "randevu",
-            "süreç"
-          ],
-          "md": {
-            "slug": "tr/treatment-edit-long",
-            "fileUrl": "/help/tr/tr-treatment-edit_long.md"
-          }
-        },
-        {
           "id": "treatment-discount",
           "type": "doc",
           "title": "Tedavi İndirimi",
@@ -218,7 +194,7 @@
           "order": 4,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/treatment-discount.png"
           },
           "tags": [
             "indirim",
@@ -235,31 +211,6 @@
           }
         },
         {
-          "id": "treatment-discount-long",
-          "type": "doc",
-          "title": "Tedavi İndirimi (Detaylı)",
-          "description": "Tedavilerde gelişmiş indirim ayarları",
-          "order": 5,
-          "icon": {
-            "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
-          },
-          "tags": [
-            "indirim",
-            "fiyat",
-            "tutar",
-            "yüzde",
-            "sabit",
-            "genel",
-            "bazlı",
-            "detay"
-          ],
-          "md": {
-            "slug": "tr/treatment-discount-long",
-            "fileUrl": "/help/tr/tr-treatment-discount_long.md"
-          }
-        },
-        {
           "id": "treatment-phases",
           "type": "doc",
           "title": "Tedavi Aşamaları",
@@ -267,7 +218,7 @@
           "order": 6,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "treatment-phase.png"
           },
           "tags": [
             "aşama",
@@ -292,7 +243,7 @@
           "order": 7,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/payment.png"
           },
           "tags": [
             "ödeme",
@@ -316,7 +267,7 @@
           "order": 8,
           "icon": {
             "type": "img",
-            "value": "https://cdn-icons-png.flaticon.com/512/1828/1828925.png"
+            "value": "icons/treatment-animation.png"
           },
           "tags": [
             "animasyon",
@@ -330,6 +281,32 @@
           "md": {
             "slug": "tr/treatment-animation",
             "fileUrl": "/help/tr/tr-treatment-animation.md"
+          }
+        },
+        {
+          "id": "diagnosis-add",
+          "type": "doc",
+          "title": "Diagnoz Ekleme",
+          "description": "Diagnoz nasıl eklenir?",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/diagnosis.png"
+          },
+          "tags": [
+            "diagnoz",
+            "tanı",
+            "diş",
+            "diş-şeması",
+            "işaretleme",
+            "plan",
+            "ilk-muayene",
+            "klinik-değerlendirme",
+            "tedavi-öncesi"
+          ],
+          "md": {
+            "slug": "tr/diagnosis-add",
+            "fileUrl": "/help/tr/tr-diagnosis-add.md"
           }
         }
       ]
