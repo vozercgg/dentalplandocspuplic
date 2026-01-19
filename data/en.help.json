@@ -1,0 +1,585 @@
+{
+  "lang": "en",
+  "version": 1,
+  "baseUrl": "/help",
+  "root": [
+    {
+      "id": "clinic-settings",
+      "type": "folder",
+      "title": "Clinic Settings",
+      "description": "Clinic details, users, and core settings",
+      "order": 1,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-hospital"
+      },
+      "tags": [
+        "clinic",
+        "settings",
+        "user",
+        "profile",
+        "invite",
+        "access",
+        "permission"
+      ],
+      "children": [
+        {
+          "id": "clinic-profile",
+          "type": "doc",
+          "title": "Clinic Profile",
+          "description": "How do I edit clinic profile details?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/clinic-profile.png"
+          },
+          "tags": [
+            "clinic",
+            "profile",
+            "address",
+            "location",
+            "logo",
+            "contact",
+            "settings"
+          ],
+          "md": {
+            "slug": "en/clinic-profile",
+            "fileUrl": "/help/en/en-clinic-profile.md"
+          }
+        },
+        {
+          "id": "clinic-user-invite",
+          "type": "doc",
+          "title": "User Invitation",
+          "description": "How do I invite a user to the clinic?",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/user-add.png"
+          },
+          "tags": [
+            "user",
+            "invite",
+            "doctor",
+            "email",
+            "access",
+            "clinic",
+            "team"
+          ],
+          "md": {
+            "slug": "en/clinic-user-invite",
+            "fileUrl": "/help/en/en-clinic-user-invite.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hotels-transfers",
+      "type": "folder",
+      "title": "Hotels & Transfers",
+      "description": "Accommodation and transfer workflows",
+      "order": 2,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-hotel"
+      },
+      "tags": [
+        "hotel",
+        "transfer",
+        "accommodation",
+        "service",
+        "pricing"
+      ],
+      "children": [
+        {
+          "id": "hotels-transfers-doc",
+          "type": "doc",
+          "title": "Hotel & Transfer Management",
+          "description": "How do I manage hotel and transfer information?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/travel-luggage.png"
+          },
+          "tags": [
+            "hotel",
+            "transfer",
+            "accommodation",
+            "service",
+            "pricing",
+            "record",
+            "management"
+          ],
+          "md": {
+            "slug": "en/hotels-transfers",
+            "fileUrl": "/help/en/en-hotels-transfers.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "treatment-plan",
+      "type": "folder",
+      "title": "Treatment Plan",
+      "description": "Adding treatments, editing, discounts, phases, and animation",
+      "order": 3,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-tooth"
+      },
+      "tags": [
+        "treatment",
+        "plan",
+        "procedure",
+        "add",
+        "edit",
+        "discount",
+        "phase",
+        "animation",
+        "payment"
+      ],
+      "children": [
+        {
+          "id": "treatment-add",
+          "type": "doc",
+          "title": "Add Treatment",
+          "description": "How do I add a new treatment?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/implant.png"
+          },
+          "tags": [
+            "treatment",
+            "procedure",
+            "add",
+            "tooth",
+            "search",
+            "plan",
+            "selection"
+          ],
+          "md": {
+            "slug": "en/treatment-add",
+            "fileUrl": "/help/en/en-treatment-add.md"
+          }
+        },
+        {
+          "id": "treatment-edit",
+          "type": "doc",
+          "title": "Edit Treatment",
+          "description": "How do I edit an existing treatment?",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "treatment-edit.png"
+          },
+          "tags": [
+            "treatment",
+            "edit",
+            "delete",
+            "reorder",
+            "plan",
+            "procedure",
+            "row"
+          ],
+          "md": {
+            "slug": "en/treatment-edit",
+            "fileUrl": "/help/en/en-treatment-edit.md"
+          }
+        },
+        {
+          "id": "diagnosis-add",
+          "type": "doc",
+          "title": "Add Diagnosis",
+          "description": "How do I add a diagnosis?",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/diagnosis.png"
+          },
+          "tags": [
+            "diagnosis",
+            "assessment",
+            "tooth",
+            "tooth-chart",
+            "marking",
+            "plan",
+            "initial-exam",
+            "clinical-assessment",
+            "pre-treatment"
+          ],
+          "md": {
+            "slug": "en/diagnosis-add",
+            "fileUrl": "/help/en/en-diagnosis-add.md"
+          }
+        },
+        {
+          "id": "treatment-discount",
+          "type": "doc",
+          "title": "Treatment Discount",
+          "description": "How do I apply a discount to a treatment?",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/treatment-discount.png"
+          },
+          "tags": [
+            "discount",
+            "price",
+            "amount",
+            "percentage",
+            "fixed",
+            "item-based",
+            "total"
+          ],
+          "md": {
+            "slug": "en/treatment-discount",
+            "fileUrl": "/help/en/en-treatment-discount.md"
+          }
+        },
+        {
+          "id": "treatment-phases",
+          "type": "doc",
+          "title": "Treatment Phases",
+          "description": "How are treatment phases defined?",
+          "order": 6,
+          "icon": {
+            "type": "img",
+            "value": "treatment-phase.png"
+          },
+          "tags": [
+            "phase",
+            "session",
+            "surgery",
+            "appointment",
+            "plan",
+            "procedure",
+            "management"
+          ],
+          "md": {
+            "slug": "en/treatment-phases",
+            "fileUrl": "/help/en/en-treatment-phases.md"
+          }
+        },
+        {
+          "id": "payment-add",
+          "type": "doc",
+          "title": "Add Payment",
+          "description": "How do I add a payment to the treatment plan?",
+          "order": 7,
+          "icon": {
+            "type": "img",
+            "value": "icons/payment.png"
+          },
+          "tags": [
+            "payment",
+            "collection",
+            "balance",
+            "amount",
+            "total",
+            "finance",
+            "money"
+          ],
+          "md": {
+            "slug": "en/payment-add",
+            "fileUrl": "/help/en/en-payment-add.md"
+          }
+        },
+        {
+          "id": "treatment-animation",
+          "type": "doc",
+          "title": "Treatment Animation",
+          "description": "How do I create treatment animations?",
+          "order": 8,
+          "icon": {
+            "type": "img",
+            "value": "icons/treatment-animation.png"
+          },
+          "tags": [
+            "animation",
+            "ai",
+            "link",
+            "sharing",
+            "whatsapp",
+            "presentation",
+            "treatment"
+          ],
+          "md": {
+            "slug": "en/treatment-animation",
+            "fileUrl": "/help/en/en-treatment-animation.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "type": "folder",
+      "title": "Documents",
+      "description": "Creating, editing, and sharing PDF offer documents",
+      "order": 4,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-file-pdf"
+      },
+      "tags": [
+        "document",
+        "pdf",
+        "offer",
+        "edit",
+        "share",
+        "download"
+      ],
+      "children": [
+        {
+          "id": "document-create",
+          "type": "doc",
+          "title": "Creating a Document (Offer)",
+          "description": "Create a PDF offer document for the patient and select pages",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-create.png"
+          },
+          "tags": [
+            "document",
+            "pdf",
+            "offer",
+            "create",
+            "page",
+            "selection"
+          ],
+          "md": {
+            "slug": "en/document-create",
+            "fileUrl": "/help/en/en-document-create.md"
+          }
+        },
+        {
+          "id": "document-edit",
+          "type": "doc",
+          "title": "Editing a Document (Editor)",
+          "description": "Make visual and text changes to the created document",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-edit.png"
+          },
+          "tags": [
+            "document",
+            "edit",
+            "editor",
+            "visual",
+            "text",
+            "design"
+          ],
+          "md": {
+            "slug": "en/document-edit",
+            "fileUrl": "/help/en/en-document-edit.md"
+          }
+        },
+        {
+          "id": "document-share",
+          "type": "doc",
+          "title": "Sharing and Downloading Documents",
+          "description": "Download as PDF, share via QR code, or send via WhatsApp",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-share.png"
+          },
+          "tags": [
+            "document",
+            "share",
+            "download",
+            "pdf",
+            "qr",
+            "whatsapp"
+          ],
+          "md": {
+            "slug": "en/document-share",
+            "fileUrl": "/help/en/en-document-share.md"
+          }
+        },
+        {
+          "id": "document-reset",
+          "type": "doc",
+          "title": "Resetting and Updating Documents",
+          "description": "Reflect later-added data (Diagnosis, Language Change) to the document",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-reset.png"
+          },
+          "tags": [
+            "document",
+            "reset",
+            "update",
+            "diagnosis",
+            "language",
+            "data"
+          ],
+          "md": {
+            "slug": "en/document-reset",
+            "fileUrl": "/help/en/en-document-reset.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "type": "folder",
+      "title": "Templates",
+      "description": "PDF template management, design, and advanced operations",
+      "order": 5,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-palette"
+      },
+      "tags": [
+        "template",
+        "pdf",
+        "design",
+        "language",
+        "management"
+      ],
+      "children": [
+        {
+          "id": "templates-management",
+          "type": "doc",
+          "title": "PDF Template and Language Management",
+          "description": "Language-based template set selection and default settings for PDF documents",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-management.png"
+          },
+          "tags": [
+            "template",
+            "pdf",
+            "language",
+            "management",
+            "default"
+          ],
+          "md": {
+            "slug": "en/templates-management",
+            "fileUrl": "/help/en/en-templates-management.md"
+          }
+        },
+        {
+          "id": "templates-design",
+          "type": "doc",
+          "title": "Page Design and Editing",
+          "description": "Visual design of PDF pages such as cover, introduction, treatment",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-design.png"
+          },
+          "tags": [
+            "template",
+            "design",
+            "page",
+            "cover",
+            "introduction",
+            "visual",
+            "edit"
+          ],
+          "md": {
+            "slug": "en/templates-design",
+            "fileUrl": "/help/en/en-templates-design.md"
+          }
+        },
+        {
+          "id": "templates-advanced",
+          "type": "doc",
+          "title": "Copying and Creating Custom Pages",
+          "description": "Copy templates across languages, create full-page images and dynamic data pages",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-advanced.png"
+          },
+          "tags": [
+            "template",
+            "copy",
+            "custom",
+            "page",
+            "image",
+            "dynamic",
+            "data"
+          ],
+          "md": {
+            "slug": "en/templates-advanced",
+            "fileUrl": "/help/en/en-templates-advanced.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plans-settings",
+      "type": "folder",
+      "title": "Plan Settings",
+      "description": "Treatment price list and diagnosis settings",
+      "order": 6,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-cog"
+      },
+      "tags": [
+        "plan",
+        "settings",
+        "treatment",
+        "price",
+        "diagnosis",
+        "list"
+      ],
+      "children": [
+        {
+          "id": "plans-settings-treatment",
+          "type": "doc",
+          "title": "Treatment and Price List Settings",
+          "description": "Manage the clinic's standard treatment list, prices, and currency",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/plans-settings-treatment.png"
+          },
+          "tags": [
+            "plan",
+            "treatment",
+            "price",
+            "list",
+            "currency",
+            "management"
+          ],
+          "md": {
+            "slug": "en/plans-settings-treatment",
+            "fileUrl": "/help/en/en-plan-settings-treatment.md"
+          }
+        },
+        {
+          "id": "plans-settings-diagnosis",
+          "type": "doc",
+          "title": "Diagnosis List Settings",
+          "description": "Edit the clinic diagnosis list and patient information texts",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/plans-settings-diagnosis.png"
+          },
+          "tags": [
+            "plan",
+            "diagnosis",
+            "list",
+            "patient",
+            "information",
+            "text"
+          ],
+          "md": {
+            "slug": "en/plans-settings-diagnosis",
+            "fileUrl": "/help/en/en-plan-settings-diagnosis.md"
+          }
+        }
+      ]
+    }
+  ]
+}

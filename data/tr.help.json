@@ -187,6 +187,32 @@
           }
         },
         {
+          "id": "diagnosis-add",
+          "type": "doc",
+          "title": "Diagnoz Ekleme",
+          "description": "Diagnoz nasıl eklenir?",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/diagnosis.png"
+          },
+          "tags": [
+            "diagnoz",
+            "tanı",
+            "diş",
+            "diş-şeması",
+            "işaretleme",
+            "plan",
+            "ilk-muayene",
+            "klinik-değerlendirme",
+            "tedavi-öncesi"
+          ],
+          "md": {
+            "slug": "tr/diagnosis-add",
+            "fileUrl": "/help/tr/tr-diagnosis-add.md"
+          }
+        },
+        {
           "id": "treatment-discount",
           "type": "doc",
           "title": "Tedavi İndirimi",
@@ -282,31 +308,279 @@
             "slug": "tr/treatment-animation",
             "fileUrl": "/help/tr/tr-treatment-animation.md"
           }
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "type": "folder",
+      "title": "Döküman",
+      "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
+      "order": 4,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-file-pdf"
+      },
+      "tags": [
+        "döküman",
+        "pdf",
+        "teklif",
+        "düzenleme",
+        "paylaşım",
+        "indirme"
+      ],
+      "children": [
+        {
+          "id": "document-create",
+          "type": "doc",
+          "title": "Doküman (Teklif) Oluşturma",
+          "description": "Hasta için PDF teklif dokümanı oluşturma ve sayfa seçimi",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-create.png"
+          },
+          "tags": [
+            "döküman",
+            "pdf",
+            "teklif",
+            "oluşturma",
+            "sayfa",
+            "seçim"
+          ],
+          "md": {
+            "slug": "tr/document-create",
+            "fileUrl": "/help/tr/tr-document-create.md"
+          }
         },
         {
-          "id": "diagnosis-add",
+          "id": "document-edit",
           "type": "doc",
-          "title": "Diagnoz Ekleme",
-          "description": "Diagnoz nasıl eklenir?",
+          "title": "Doküman Düzenleme (Editör)",
+          "description": "Oluşturulan doküman üzerinde görsel ve metin değişiklikleri yapma",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-edit.png"
+          },
+          "tags": [
+            "döküman",
+            "düzenleme",
+            "editör",
+            "görsel",
+            "metin",
+            "tasarım"
+          ],
+          "md": {
+            "slug": "tr/document-edit",
+            "fileUrl": "/help/tr/tr-document-edit.md"
+          }
+        },
+        {
+          "id": "document-share",
+          "type": "doc",
+          "title": "Dokümanı Paylaşma ve İndirme",
+          "description": "PDF olarak indirme, QR kod ile paylaşma veya WhatsApp'tan gönderme",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-share.png"
+          },
+          "tags": [
+            "döküman",
+            "paylaşım",
+            "indirme",
+            "pdf",
+            "qr",
+            "whatsapp"
+          ],
+          "md": {
+            "slug": "tr/document-share",
+            "fileUrl": "/help/tr/tr-document-share.md"
+          }
+        },
+        {
+          "id": "document-reset",
+          "type": "doc",
+          "title": "Dokümanı Sıfırlama ve Güncelleme",
+          "description": "Sonradan eklenen verileri (Diagnoz, Dil Değişimi) dokümana yansıtma",
           "order": 4,
           "icon": {
             "type": "img",
-            "value": "icons/diagnosis.png"
+            "value": "icons/document-reset.png"
           },
           "tags": [
+            "döküman",
+            "sıfırlama",
+            "güncelleme",
             "diagnoz",
-            "tanı",
-            "diş",
-            "diş-şeması",
-            "işaretleme",
-            "plan",
-            "ilk-muayene",
-            "klinik-değerlendirme",
-            "tedavi-öncesi"
+            "dil",
+            "veri"
           ],
           "md": {
-            "slug": "tr/diagnosis-add",
-            "fileUrl": "/help/tr/tr-diagnosis-add.md"
+            "slug": "tr/document-reset",
+            "fileUrl": "/help/tr/tr-document-reset.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "type": "folder",
+      "title": "Taslaklar",
+      "description": "PDF şablon yönetimi, tasarım ve gelişmiş işlemler",
+      "order": 5,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-palette"
+      },
+      "tags": [
+        "taslak",
+        "şablon",
+        "pdf",
+        "tasarım",
+        "dil",
+        "yönetim"
+      ],
+      "children": [
+        {
+          "id": "templates-management",
+          "type": "doc",
+          "title": "PDF Şablon ve Dil Yönetimi",
+          "description": "PDF dokümanları için dil bazlı şablon seti seçimi ve varsayılan ayarlama",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-management.png"
+          },
+          "tags": [
+            "taslak",
+            "şablon",
+            "pdf",
+            "dil",
+            "yönetim",
+            "varsayılan"
+          ],
+          "md": {
+            "slug": "tr/templates-management",
+            "fileUrl": "/help/tr/tr-templates-management.md"
+          }
+        },
+        {
+          "id": "templates-design",
+          "type": "doc",
+          "title": "Sayfa Tasarımı ve Düzenleme",
+          "description": "Kapak, giriş, tedavi gibi PDF sayfalarının görsel tasarımı",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-design.png"
+          },
+          "tags": [
+            "taslak",
+            "tasarım",
+            "sayfa",
+            "kapak",
+            "giriş",
+            "görsel",
+            "düzenleme"
+          ],
+          "md": {
+            "slug": "tr/templates-design",
+            "fileUrl": "/help/tr/tr-templates-design.md"
+          }
+        },
+        {
+          "id": "templates-advanced",
+          "type": "doc",
+          "title": "Kopyalama ve Özel Sayfa Oluşturma",
+          "description": "Şablonları diller arası kopyalama, tam sayfa görsel ve dinamik veri sayfaları oluşturma",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-advanced.png"
+          },
+          "tags": [
+            "taslak",
+            "kopyalama",
+            "özel",
+            "sayfa",
+            "görsel",
+            "dinamik",
+            "veri"
+          ],
+          "md": {
+            "slug": "tr/templates-advanced",
+            "fileUrl": "/help/tr/tr-templates-advanced.md"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plans-settings",
+      "type": "folder",
+      "title": "Tarife Ayarları",
+      "description": "Tedavi fiyat listesi ve diagnoz ayarları",
+      "order": 6,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-cog"
+      },
+      "tags": [
+        "tarife",
+        "ayar",
+        "tedavi",
+        "fiyat",
+        "diagnoz",
+        "liste"
+      ],
+      "children": [
+        {
+          "id": "plans-settings-treatment",
+          "type": "doc",
+          "title": "Tedavi ve Fiyat Listesi Ayarları",
+          "description": "Kliniğin standart tedavi listesini, fiyatlarını ve para birimini yönetme",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/plans-settings-treatment.png"
+          },
+          "tags": [
+            "tarife",
+            "tedavi",
+            "fiyat",
+            "liste",
+            "para",
+            "birim",
+            "yönetim"
+          ],
+          "md": {
+            "slug": "tr/plans-settings-treatment",
+            "fileUrl": "/help/tr/tr-plans-settings-treatment.md"
+          }
+        },
+        {
+          "id": "plans-settings-diagnosis",
+          "type": "doc",
+          "title": "Diagnoz (Tanı) Listesi Ayarları",
+          "description": "Klinik diagnoz listesini ve hasta bilgilendirme metinlerini düzenleme",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/plans-settings-diagnosis.png"
+          },
+          "tags": [
+            "tarife",
+            "diagnoz",
+            "tanı",
+            "liste",
+            "hasta",
+            "bilgilendirme",
+            "metin"
+          ],
+          "md": {
+            "slug": "tr/plans-settings-diagnosis",
+            "fileUrl": "/help/tr/tr-plans-settings-diagnosis.md"
           }
         }
       ]

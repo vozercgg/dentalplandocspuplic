@@ -1,5 +1,4 @@
 
-
 # Ödeme Ekleme ve Takibi
 
 Hastadan alınan tahsilatları (Nakit, Kredi Kartı vb.) sisteme işleyerek bakiyeyi güncel tutmak için kullanılır.

@@ -1,5 +1,4 @@
 
-
 # Plan Düzenleme ve Silme
 
 Plana eklenmiş satırların sırasını değiştirebilir veya hatalı eklenenleri silebilirsiniz.

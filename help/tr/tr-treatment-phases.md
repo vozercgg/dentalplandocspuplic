@@ -1,5 +1,4 @@
 
-
 # Faz (Aşama) Yönetimi
 
 Tedavileri randevu veya süreç bazlı (Örn: "1. Seans", "Cerrahi") gruplamak için Faz yapısı kullanılır.

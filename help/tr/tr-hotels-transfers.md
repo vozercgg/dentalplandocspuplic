@@ -11,6 +11,7 @@ Hastalarınıza sunduğunuz konaklama ve ulaşım seçeneklerini buradan tanıml
 2.  Açılan pencerede hizmet detaylarını girin:
     * **Tür:** Otel veya Transfer seçimi yapın.
     * **Ad:** Hizmetin adı (Örn: *5 Yıldızlı Otel Paketi*).
+    * **Fiyat:** Varsa varsayılan birim fiyatı.
     * **Görsel:** Tanıtım için otel/araç fotoğrafı yükleyin.
     * **Bağlantı (Link):** Otelin web sitesi veya konum linkini ekleyebilirsiniz.
 3.  **Kaydet** butonuna basarak işlemi tamamlayın.
