@@ -10,7 +10,7 @@
       "description": "Clinic details, users, and core settings",
       "order": 1,
       "icon": {
-        "type": "fa",
+        "type": "img",
         "value": "icons/clinic-profile.png"
       },
       "tags": [
@@ -80,7 +80,7 @@
       "description": "Accommodation and transfer workflows",
       "order": 2,
       "icon": {
-        "type": "fa",
+        "type": "img",
         "value": "icons/hotel.png"
       },
       "tags": [
