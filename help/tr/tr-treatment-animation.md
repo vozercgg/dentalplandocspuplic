@@ -35,14 +35,3 @@ Hasta klinikte yanınızdaysa, ekranda çıkan **QR Kodu** hastanın telefon kam
 
 ### 3. Linki Kopyalama
 **Linki Kopyala** butonuna basarak bağlantıyı alabilir; E-posta, SMS veya Instagram DM üzerinden manuel olarak gönderebilirsiniz.
-
-## Sık Sorulan Sorular
-
-**"Animasyon oluştur butonunu göremiyorum?"**
-Animasyonun oluşması için hastanın tedavi planında en az bir işlemin ekli olması gerekir. Plan boşsa animasyon görünmez.
-
-**"Animasyondaki dişler yanlış görünüyor?"**
-Animasyon, **Tedavi** sekmesindeki plana sadıktır. Eğer yanlış diş veya işlem görüyorsanız, Tedavi sekmesine dönüp planı düzelttikten sonra tekrar Animasyon sekmesine gelin.
-
-**"Paylaştığım link açılmıyor?"**
-İnternet bağlantınızı kontrol edin. Linki eksik kopyalamadığınızdan emin olun. Sorun devam ederse "Linki Kopyala" diyerek gizli sekmede (Incognito) test edebilirsiniz.

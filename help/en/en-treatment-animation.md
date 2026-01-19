@@ -34,14 +34,3 @@ If the patient is in the clinic, have them scan the **QR Code** shown on the scr
 
 ### 3) Copy the Link
 Click **Copy Link** to copy the URL, then send it manually via Email, SMS, or Instagram DM.
-
-## FAQ
-
-**"I can’t see the animation create button."**  
-For the animation to be generated, the patient’s treatment plan must include at least one procedure. If the plan is empty, the animation will not appear.
-
-**"The teeth in the animation look wrong."**  
-The animation follows the plan in the **Treatment** tab. If you see the wrong tooth or procedure, go back to **Treatment**, fix the plan, then return to **Animation**.
-
-**"The link I shared doesn’t open."**  
-Check your internet connection. Make sure you copied the link completely. If the issue continues, click **Copy Link** again and test it in an incognito/private window.
