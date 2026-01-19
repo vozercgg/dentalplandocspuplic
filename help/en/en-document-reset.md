@@ -1,13 +1,3 @@
----
-id: "en-document-reset"
-version: "v2.0"
-slug: "document/reset-and-update"
-title: "Resetting and Updating the Document"
-lang: "en"
-category: "Document"
-weight: 40
-summary: "Refresh the document to reflect changes (Diagnosis, language changes, etc.)."
----
 
 # Resetting and Updating the Document
 

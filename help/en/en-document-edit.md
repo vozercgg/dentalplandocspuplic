@@ -1,13 +1,3 @@
----
-id: "en-document-edit"
-version: "v2.0"
-slug: "document/edit"
-title: "Editing the Document (Editor)"
-lang: "en"
-category: "Document"
-weight: 20
-summary: "Make visual and text changes on the created document."
----
 
 # Editing the Document (Editor)
 

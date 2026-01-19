@@ -1,13 +1,3 @@
----
-id: "en-document-create"
-version: "v2.0"
-slug: "document/create"
-title: "Creating a Document (Offer)"
-lang: "en"
-category: "Document"
-weight: 10
-summary: "Create a PDF offer document for the patient and select pages."
----
 
 # Creating a Document (Offer)
 
