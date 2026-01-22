@@ -44,7 +44,8 @@
           "md": {
             "slug": "tr/clinic-profile",
             "fileUrl": "/help/tr/tr-clinic-profile.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/clinic-profile.mp4"
         },
         {
           "id": "clinic-user-invite",
@@ -68,7 +69,8 @@
           "md": {
             "slug": "tr/clinic-user-invite",
             "fileUrl": "/help/tr/tr-clinic-user-invite.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/clinic-user-invite.mp4"
         }
       ]
     },
@@ -112,7 +114,8 @@
           "md": {
             "slug": "tr/hotels-transfers",
             "fileUrl": "/help/tr/tr-hotels-transfers.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/hotels-transfers.mp4"
         }
       ]
     },
@@ -160,7 +163,8 @@
           "md": {
             "slug": "tr/treatment-add",
             "fileUrl": "/help/tr/tr-treatment-add.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/treatment-add.mp4"
         },
         {
           "id": "treatment-edit",
@@ -184,7 +188,8 @@
           "md": {
             "slug": "tr/treatment-edit",
             "fileUrl": "/help/tr/tr-treatment-edit.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/treatment-edit.mp4"
         },
         {
           "id": "diagnosis-add",
@@ -210,7 +215,8 @@
           "md": {
             "slug": "tr/diagnosis-add",
             "fileUrl": "/help/tr/tr-diagnosis-add.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/diagnosis-add.mp4"
         },
         {
           "id": "treatment-discount",
@@ -234,7 +240,8 @@
           "md": {
             "slug": "tr/treatment-discount",
             "fileUrl": "/help/tr/tr-treatment-discount.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/treatment-discount.mp4"
         },
         {
           "id": "treatment-phases",
@@ -259,7 +266,8 @@
           "md": {
             "slug": "tr/treatment-phases",
             "fileUrl": "/help/tr/tr-treatment-phases.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/treatment-phases.mp4"
         },
         {
           "id": "payment-add",
@@ -283,7 +291,8 @@
           "md": {
             "slug": "tr/payment-add",
             "fileUrl": "/help/tr/tr-payment-add.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/payment-add.mp4"
         },
         {
           "id": "treatment-animation",
@@ -307,7 +316,8 @@
           "md": {
             "slug": "tr/treatment-animation",
             "fileUrl": "/help/tr/tr-treatment-animation.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/treatment-animation.mp4"
         }
       ]
     },
@@ -351,7 +361,8 @@
           "md": {
             "slug": "tr/document-create",
             "fileUrl": "/help/tr/tr-document-create.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/document-create.mp4"
         },
         {
           "id": "document-edit",
@@ -374,7 +385,8 @@
           "md": {
             "slug": "tr/document-edit",
             "fileUrl": "/help/tr/tr-document-edit.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/document-edit.mp4"
         },
         {
           "id": "document-share",
@@ -397,7 +409,8 @@
           "md": {
             "slug": "tr/document-share",
             "fileUrl": "/help/tr/tr-document-share.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/document-share.mp4"
         },
         {
           "id": "document-reset",
@@ -420,7 +433,8 @@
           "md": {
             "slug": "tr/document-reset",
             "fileUrl": "/help/tr/tr-document-reset.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/document-reset.mp4"
         }
       ]
     },
@@ -488,7 +502,8 @@
           "md": {
             "slug": "tr/templates-design",
             "fileUrl": "/help/tr/tr-templates-design.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/templates-design.mp4"
         },
         {
           "id": "templates-advanced",
@@ -512,7 +527,8 @@
           "md": {
             "slug": "tr/templates-advanced",
             "fileUrl": "/help/tr/tr-templates-advanced.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/templates-advanced.mp4"
         }
       ]
     },
@@ -557,7 +573,8 @@
           "md": {
             "slug": "tr/plans-settings-treatment",
             "fileUrl": "/help/tr/tr-plans-settings-treatment.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/plans-settings-treatment.mp4"
         },
         {
           "id": "plans-settings-diagnosis",
@@ -581,7 +598,8 @@
           "md": {
             "slug": "tr/plans-settings-diagnosis",
             "fileUrl": "/help/tr/tr-plans-settings-diagnosis.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/plans-settings-diagnosis.mp4"
         }
       ]
     }
