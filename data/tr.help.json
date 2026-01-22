@@ -4,6 +4,137 @@
   "baseUrl": "/help",
   "root": [
     {
+      "id": "quickstart",
+      "type": "folder",
+      "title": "Hızlı Başlangıç",
+      "description": "Sistemi kullanmaya başlamak için temel adımlar",
+      "order": 0,
+      "icon": {
+        "type": "img",
+        "value": "icons/quickstart.png"
+      },
+      "tags": [
+        "hızlı",
+        "başlangıç",
+        "kurulum",
+        "ilk",
+        "adım",
+        "rehber"
+      ],
+      "children": [
+        {
+          "id": "quickstart-branding",
+          "type": "doc",
+          "title": "Temel Kurulum ve Markalama",
+          "description": "Kliniğinizin renklerini ve markasını yansıtın",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/quickstart-branding.png"
+          },
+          "tags": [
+            "markalama",
+            "renk",
+            "tema",
+            "kurulum",
+            "ayar"
+          ],
+          "md": {
+            "slug": "tr/quickstart/quickstart-branding",
+            "fileUrl": "/help/tr/quickstart/tr-quickstart-branding.md"
+          }
+        },
+        {
+          "id": "quickstart-clinic-profile",
+          "type": "doc",
+          "title": "Klinik Profili ve Doktor Ekleme",
+          "description": "Klinik bilgilerini girin ve doktorları davet edin",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/quickstart-clinic-profile.png"
+          },
+          "tags": [
+            "klinik",
+            "profil",
+            "doktor",
+            "davet",
+            "iletişim"
+          ],
+          "md": {
+            "slug": "tr/quickstart/quickstart-clinic-profile",
+            "fileUrl": "/help/tr/quickstart/tr-quickstart-clinic-profile.md"
+          }
+        },
+        {
+          "id": "quickstart-templates",
+          "type": "doc",
+          "title": "Taslak (Şablon) Yönetimi",
+          "description": "Teklif ve tedavi planı tasarımlarını ayarlayın",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/quickstart-templates.png"
+          },
+          "tags": [
+            "taslak",
+            "şablon",
+            "tasarım",
+            "pdf",
+            "varsayılan"
+          ],
+          "md": {
+            "slug": "tr/quickstart/quickstart-templates",
+            "fileUrl": "/help/tr/quickstart/tr-quickstart-templates.md"
+          }
+        },
+        {
+          "id": "quickstart-plansetting",
+          "type": "doc",
+          "title": "Tarife ve Tedavi Listesi",
+          "description": "Fiyatları ve tedavi listesini yönetin",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/quickstart-plansetting.png"
+          },
+          "tags": [
+            "tarife",
+            "tedavi",
+            "fiyat",
+            "liste",
+            "ayar"
+          ],
+          "md": {
+            "slug": "tr/quickstart/quickstart-plansetting",
+            "fileUrl": "/help/tr/quickstart/tr-quickstart-plansetting.md"
+          }
+        },
+        {
+          "id": "quickstart-first-patient",
+          "type": "doc",
+          "title": "İlk Hastayı Ekleme",
+          "description": "İlk hasta kaydınızı oluşturun ve sistemi kullanmaya başlayın",
+          "order": 5,
+          "icon": {
+            "type": "img",
+            "value": "icons/quickstart-first-patient.png"
+          },
+          "tags": [
+            "hasta",
+            "ekleme",
+            "ilk",
+            "kayıt",
+            "başlangıç"
+          ],
+          "md": {
+            "slug": "tr/quickstart/quickstart-first-patient",
+            "fileUrl": "/help/tr/quickstart/tr-quickstart-first-patient.md"
+          }
+        }
+      ]
+    },
+    {
       "id": "clinic-settings",
       "type": "folder",
       "title": "Klinik Ayarları",
@@ -11,7 +142,7 @@
       "order": 1,
       "icon": {
         "type": "fa",
-        "value": "icons/clinic-settings.png"
+        "value": "icons/clinic-profile.png"
       },
       "tags": [
         "klinik",
@@ -82,7 +213,7 @@
       "order": 2,
       "icon": {
         "type": "fa",
-        "value": "icons/hotels-transfers.png"
+        "value": "icons/hotel.png"
       },
       "tags": [
         "otel",
@@ -127,7 +258,7 @@
       "order": 3,
       "icon": {
         "type": "fa",
-        "value": "icons/treatment-plan.png"
+        "value": "icons/scaling.png"
       },
       "tags": [
         "tedavi",
@@ -174,7 +305,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/treatment-edit.png"
+            "value": "treatment-edit.png"
           },
           "tags": [
             "tedavi",
@@ -251,7 +382,7 @@
           "order": 6,
           "icon": {
             "type": "img",
-            "value": "icons/treatment-phase.png"
+            "value": "treatment-phase.png"
           },
           "tags": [
             "aşama",
@@ -328,8 +459,8 @@
       "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
       "order": 4,
       "icon": {
-        "type": "img",
-        "value": "icons/medical-history.png"
+        "type": "fa",
+        "value": "fa-solid fa-file-pdf"
       },
       "tags": [
         "döküman",
@@ -348,7 +479,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/document-create.png"
           },
           "tags": [
             "döküman",
@@ -372,7 +503,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/document-edit.png"
           },
           "tags": [
             "döküman",
@@ -396,7 +527,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/document-share.png"
           },
           "tags": [
             "döküman",
@@ -420,7 +551,7 @@
           "order": 4,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/document-reset.png"
           },
           "tags": [
             "döküman",
@@ -465,7 +596,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/templates-management.png"
           },
           "tags": [
             "taslak",
@@ -488,7 +619,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/templates-design.png"
           },
           "tags": [
             "taslak",
@@ -513,7 +644,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/templates-advanced.png"
           },
           "tags": [
             "taslak",
@@ -559,7 +690,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/plans-settings-treatment.png"
           },
           "tags": [
             "tarife",
@@ -584,7 +715,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/documents.png"
+            "value": "icons/plans-settings-diagnosis.png"
           },
           "tags": [
             "tarife",
