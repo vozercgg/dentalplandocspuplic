@@ -11,7 +11,7 @@
       "order": 1,
       "icon": {
         "type": "fa",
-        "value": "icons/clinic-profile.png"
+        "value": "icons/clinic-settings.png"
       },
       "tags": [
         "klinik",
@@ -82,7 +82,7 @@
       "order": 2,
       "icon": {
         "type": "fa",
-        "value": "icons/hotel.png"
+        "value": "icons/hotels-transfers.png"
       },
       "tags": [
         "otel",
@@ -127,7 +127,7 @@
       "order": 3,
       "icon": {
         "type": "fa",
-        "value": "icons/scaling.png"
+        "value": "icons/treatment-plan.png"
       },
       "tags": [
         "tedavi",
@@ -174,7 +174,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "treatment-edit.png"
+            "value": "icons/treatment-edit.png"
           },
           "tags": [
             "tedavi",
@@ -251,7 +251,7 @@
           "order": 6,
           "icon": {
             "type": "img",
-            "value": "treatment-phase.png"
+            "value": "icons/treatment-phase.png"
           },
           "tags": [
             "aşama",
@@ -328,8 +328,8 @@
       "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
       "order": 4,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-file-pdf"
+        "type": "img",
+        "value": "icons/medical-history.png"
       },
       "tags": [
         "döküman",
@@ -348,7 +348,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/document-create.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "döküman",
@@ -372,7 +372,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/document-edit.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "döküman",
@@ -396,7 +396,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/document-share.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "döküman",
@@ -420,7 +420,7 @@
           "order": 4,
           "icon": {
             "type": "img",
-            "value": "icons/document-reset.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "döküman",
@@ -465,7 +465,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/templates-management.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "taslak",
@@ -488,7 +488,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/templates-design.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "taslak",
@@ -513,7 +513,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/templates-advanced.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "taslak",
@@ -559,7 +559,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/plans-settings-treatment.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "tarife",
@@ -584,7 +584,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/plans-settings-diagnosis.png"
+            "value": "icons/documents.png"
           },
           "tags": [
             "tarife",
