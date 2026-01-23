@@ -7,7 +7,7 @@
       "id": "quickstart",
       "type": "folder",
       "title": "Hızlı Başlangıç",
-      "description": "Sistemi kullanmaya başlamak için temel adımlar",
+      "description": "DentalApp'ı  hızlıca kullanmaya başlamak için temel adımlar",
       "order": 0,
       "icon": {
         "type": "img",
@@ -26,7 +26,7 @@
           "id": "quickstart-branding",
           "type": "doc",
           "title": "Temel Kurulum ve Kurumsal Kimlik Oluşturma",
-          "description": "Kliniğinizin renklerini ve markasını yansıtın. Bu ayarlar, hastalarınıza gönderilen tekliflerin ve tedavi planlarının profesyonel görünmesini sağlar.",
+          "description": "Klinik renklerinizi, logonuzu ve markanızı tanımlayın.",
           "order": 1,
           "icon": {
             "type": "img",
@@ -48,7 +48,7 @@
           "id": "quickstart-clinic-profile",
           "type": "doc",
           "title": "Klinik Profili ve Doktor Ekleme",
-          "description": "Klinik bilgilerini girin ve doktorları davet edin. Bu bilgiler, hastalarınıza gönderilen tekliflerin ve tedavi planlarının profesyonel görünmesini sağlar.",
+          "description": "Klinik bilgilerinizi girin ve doktorlarınızı davet edin.",
           "order": 2,
           "icon": {
             "type": "img",
@@ -70,7 +70,7 @@
           "id": "quickstart-templates",
           "type": "doc",
           "title": "Taslak (Şablon) Yönetimi",
-          "description": "Hastalarınıza göndereceğiniz tekliflerin ve tedavi planlarının ilk izlenimi çok önemlidir. Bu alanda, sunumlarınızın varsayılan tasarımını kendi tarzınıza göre ayarlayabilirsiniz.",
+          "description": "Sunum ve teklif çıktılarında kullanılacak hazır taslağı seçin, yönetin; tasarımı kliniğinizin tarzına göre özelleştirin.",
           "order": 3,
           "icon": {
             "type": "img",
@@ -92,7 +92,7 @@
           "id": "quickstart-plansetting",
           "type": "doc",
           "title": "Tarife ve Tedavi Listesi",
-          "description": "Fiyatları ve tedavi listesini yönetin. Bu alanda, hastalarınıza sunacağınız fiyatları ve yapay zeka animasyonlarında onlara ne söylemek istediğinizi buradan yönetirsiniz.",
+          "description": "Klinik fiyat tarifenizi oluşturun: işlemler, fiyatlar ve varsayılan seçenekler.",
           "order": 4,
           "icon": {
             "type": "img",
@@ -114,7 +114,7 @@
           "id": "quickstart-first-patient",
           "type": "doc",
           "title": "İlk Hastayı Ekleme",
-          "description": "İlk hasta kaydınızı oluşturun ve sistemi kullanmaya başlayın",
+          "description": "İlk hasta kaydınızı oluşturun ve tedavi akışını başlatarak sistemde ilk adımı atın.",
           "order": 5,
           "icon": {
             "type": "img",
@@ -164,7 +164,7 @@
       "id": "treatment-plan",
       "type": "folder",
       "title": "Tedavi Planı",
-      "description": "Tedavi ekleme, düzenleme, indirim, aşamalar ve animasyon",
+      "description": "Tedavi ekleme ve düzenleme, aşama tanımlama, indirim uygulama ve animasyon oluşturma süreçleri",
       "order": 2,
       "icon": {
         "type": "fa",
@@ -186,7 +186,7 @@
           "id": "treatment-add",
           "type": "doc",
           "title": "Tedavi Ekleme",
-          "description": "Yeni tedavi nasıl eklenir?",
+          "description": "Tedavi planına yeni işlem ekleyin ve diş/işlem seçimlerini yönetin.",
           "order": 1,
           "icon": {
             "type": "img",
@@ -211,7 +211,7 @@
           "id": "diagnosis-add",
           "type": "doc",
           "title": "Diagnoz Ekleme",
-          "description": "Diagnoz nasıl eklenir?",
+          "description": "Hasta için tanı (diagnoz) ekleyin ve diş şeması üzerinden işaretleme yapın.",
           "order": 2,
           "icon": {
             "type": "img",
@@ -238,7 +238,7 @@
           "id": "treatment-edit",
           "type": "doc",
           "title": "Tedavi Düzenleme",
-          "description": "Mevcut tedavi nasıl düzenlenir?",
+          "description": "Eklenen tedavileri düzenleyin; sıralayın veya silin.",
           "order": 3,
           "icon": {
             "type": "img",
@@ -263,7 +263,7 @@
           "id": "treatment-phases",
           "type": "doc",
           "title": "Tedavi Aşamaları",
-          "description": "Tedavi aşamaları nasıl tanımlanır?",
+          "description": "Tedavileri seans/aşama bazında gruplandırın ve süreç planını daha anlaşılır hale getirin.",
           "order": 4,
           "icon": {
             "type": "img",
@@ -289,7 +289,7 @@
           "id": "treatment-discount",
           "type": "doc",
           "title": "Tedavi İndirimi",
-          "description": "Tedaviye indirim nasıl uygulanır?",
+          "description": "Toplam tutara yüzde veya sabit indirim uygulayın ve fiyatlandırmayı hızlıca güncelleyin.",
           "order": 5,
           "icon": {
             "type": "img",
@@ -314,7 +314,7 @@
           "id": "treatment-animation",
           "type": "doc",
           "title": "Tedavi Animasyonu",
-          "description": "Tedavi animasyonları nasıl oluşturulur?",
+          "description": "Tedavi planınızı animasyona dönüştürün ve WhatsApp/bağlantı ile hastalarla paylaşın.",
           "order": 6,
           "icon": {
             "type": "img",
