@@ -1,10 +1,10 @@
-# Taslak (Şablon) Yönetimi
+# 📄 Taslak (Şablon) Yönetimi
 
 Hastalarınıza göndereceğiniz tekliflerin ve tedavi planlarının ilk izlenimi çok önemlidir. Bu alanda, sunumlarınızın varsayılan tasarımını kendi tarzınıza göre ayarlayabilirsiniz.
 
-**Yol:** `Sol Menü > Taslaklar`
+**Yol:** 📍 `Sol Menü > Taslaklar`
 
-## Size Uygun Tasarımı Seçin
+## 🎨 Size Uygun Tasarımı Seçin
 Sistemimizde sizin için hazırlanmış profesyonel şablonlar bulunur.
 
 * **Dil ve Tarz:** Sol üst köşeden `TR` veya `EN` seçimini yaparak, ilgili dildeki dokümanlarınızın nasıl görüneceğini belirleyebilirsiniz.

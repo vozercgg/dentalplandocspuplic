@@ -135,11 +135,214 @@
       ]
     },
     {
+      "id": "case-add",
+      "type": "doc",
+      "title": "Hasta Yönetimi ve Hasta Ekleme",
+      "description": "Hasta arama, yeni hasta oluşturma ve hasta detay sekmeleri",
+      "order": 1,
+      "icon": {
+        "type": "fa",
+        "value": "icons/scaling.png"
+      },
+      "md": {
+        "slug": "tr/case-add",
+        "fileUrl": "/help/tr/tr-case-add.md"
+      },
+      "tags": [
+        "hasta",
+        "hasta-ekleme",
+        "hasta-araması",
+        "kayıt",
+        "hasta-detayı",
+        "sekme",
+        "plan",
+        "tedavi",
+        "vaka"
+      ]
+    },
+    {
+      "id": "treatment-plan",
+      "type": "folder",
+      "title": "Tedavi Planı",
+      "description": "Tedavi ekleme, düzenleme, indirim, aşamalar ve animasyon",
+      "order": 2,
+      "icon": {
+        "type": "fa",
+        "value": "icons/scaling.png"
+      },
+      "tags": [
+        "tedavi",
+        "plan",
+        "işlem",
+        "ekleme",
+        "düzenleme",
+        "indirim",
+        "aşama",
+        "animasyon",
+        "ödeme"
+      ],
+      "children": [
+        {
+          "id": "treatment-add",
+          "type": "doc",
+          "title": "Tedavi Ekleme",
+          "description": "Yeni tedavi nasıl eklenir?",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/implant.png"
+          },
+          "tags": [
+            "tedavi",
+            "işlem",
+            "ekleme",
+            "diş",
+            "arama",
+            "plan",
+            "seçim"
+          ],
+          "md": {
+            "slug": "tr/treatment-plan/treatment-add",
+            "fileUrl": "/help/tr/treatment-plan/tr-treatment-add.md"
+          },
+          "embeddedVideoUrl": "/videos/treatment-add.mp4"
+        },
+        {
+          "id": "diagnosis-add",
+          "type": "doc",
+          "title": "Diagnoz Ekleme",
+          "description": "Diagnoz nasıl eklenir?",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/diagnosis.png"
+          },
+          "tags": [
+            "diagnoz",
+            "tanı",
+            "diş",
+            "diş-şeması",
+            "işaretleme",
+            "plan",
+            "ilk-muayene",
+            "klinik-değerlendirme",
+            "tedavi-öncesi"
+          ],
+          "md": {
+            "slug": "tr/diagnosis-add",
+            "fileUrl": "/help/tr/tr-diagnosis-add.md"
+          },
+          "embeddedVideoUrl": "/videos/diagnosis-add.mp4"
+        },
+        {
+          "id": "treatment-edit",
+          "type": "doc",
+          "title": "Tedavi Düzenleme",
+          "description": "Mevcut tedavi nasıl düzenlenir?",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "treatment-edit.png"
+          },
+          "tags": [
+            "tedavi",
+            "düzenleme",
+            "silme",
+            "sıralama",
+            "plan",
+            "işlem",
+            "satır"
+          ],
+          "md": {
+            "slug": "tr/treatment-plan/treatment-edit",
+            "fileUrl": "/help/tr/treatment-plan/tr-treatment-edit.md"
+          },
+          "embeddedVideoUrl": "/videos/treatment-edit.mp4"
+        },
+        {
+          "id": "treatment-phases",
+          "type": "doc",
+          "title": "Tedavi Aşamaları",
+          "description": "Tedavi aşamaları nasıl tanımlanır?",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "treatment-phase.png"
+          },
+          "tags": [
+            "aşama",
+            "faz",
+            "seans",
+            "cerrahi",
+            "randevu",
+            "plan",
+            "işlem",
+            "yönetim"
+          ],
+          "md": {
+            "slug": "tr/treatment-plan/treatment-phases",
+            "fileUrl": "/help/tr/treatment-plan/tr-treatment-phases.md"
+          },
+          "embeddedVideoUrl": "/videos/treatment-phases.mp4"
+        },
+        {
+          "id": "treatment-discount",
+          "type": "doc",
+          "title": "Tedavi İndirimi",
+          "description": "Tedaviye indirim nasıl uygulanır?",
+          "order": 5,
+          "icon": {
+            "type": "img",
+            "value": "icons/treatment-discount.png"
+          },
+          "tags": [
+            "indirim",
+            "fiyat",
+            "tutar",
+            "yüzde",
+            "sabit",
+            "bazlı",
+            "toplam"
+          ],
+          "md": {
+            "slug": "tr/treatment-plan/treatment-discount",
+            "fileUrl": "/help/tr/treatment-plan/tr-treatment-discount.md"
+          },
+          "embeddedVideoUrl": "/videos/treatment-discount.mp4"
+        },
+        {
+          "id": "treatment-animation",
+          "type": "doc",
+          "title": "Tedavi Animasyonu",
+          "description": "Tedavi animasyonları nasıl oluşturulur?",
+          "order": 6,
+          "icon": {
+            "type": "img",
+            "value": "icons/treatment-animation.png"
+          },
+          "tags": [
+            "animasyon",
+            "yapayzeka",
+            "link",
+            "paylaşım",
+            "whatsapp",
+            "sunum",
+            "tedavi"
+          ],
+          "md": {
+            "slug": "tr/treatment-animation",
+            "fileUrl": "/help/tr/tr-treatment-animation.md"
+          },
+          "embeddedVideoUrl": "/videos/treatment-animation.mp4"
+        }
+      ]
+    },
+    {
       "id": "clinic-settings",
       "type": "folder",
       "title": "Klinik Ayarları",
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
-      "order": 1,
+      "order": 3,
       "icon": {
         "type": "fa",
         "value": "icons/clinic-profile.png"
@@ -210,7 +413,7 @@
       "type": "folder",
       "title": "Otel & Transferler",
       "description": "Konaklama ve transfer süreçleri",
-      "order": 2,
+      "order": 4,
       "icon": {
         "type": "fa",
         "value": "icons/hotel.png"
@@ -251,213 +454,11 @@
       ]
     },
     {
-      "id": "treatment-plan",
-      "type": "folder",
-      "title": "Tedavi Planı",
-      "description": "Tedavi ekleme, düzenleme, indirim, aşamalar ve animasyon",
-      "order": 3,
-      "icon": {
-        "type": "fa",
-        "value": "icons/scaling.png"
-      },
-      "tags": [
-        "tedavi",
-        "plan",
-        "işlem",
-        "ekleme",
-        "düzenleme",
-        "indirim",
-        "aşama",
-        "animasyon",
-        "ödeme"
-      ],
-      "children": [
-        {
-          "id": "treatment-add",
-          "type": "doc",
-          "title": "Tedavi Ekleme",
-          "description": "Yeni tedavi nasıl eklenir?",
-          "order": 1,
-          "icon": {
-            "type": "img",
-            "value": "icons/implant.png"
-          },
-          "tags": [
-            "tedavi",
-            "işlem",
-            "ekleme",
-            "diş",
-            "arama",
-            "plan",
-            "seçim"
-          ],
-          "md": {
-            "slug": "tr/treatment-add",
-            "fileUrl": "/help/tr/tr-treatment-add.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-add.mp4"
-        },
-        {
-          "id": "treatment-edit",
-          "type": "doc",
-          "title": "Tedavi Düzenleme",
-          "description": "Mevcut tedavi nasıl düzenlenir?",
-          "order": 2,
-          "icon": {
-            "type": "img",
-            "value": "treatment-edit.png"
-          },
-          "tags": [
-            "tedavi",
-            "düzenleme",
-            "silme",
-            "sıralama",
-            "plan",
-            "işlem",
-            "satır"
-          ],
-          "md": {
-            "slug": "tr/treatment-edit",
-            "fileUrl": "/help/tr/tr-treatment-edit.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-edit.mp4"
-        },
-        {
-          "id": "diagnosis-add",
-          "type": "doc",
-          "title": "Diagnoz Ekleme",
-          "description": "Diagnoz nasıl eklenir?",
-          "order": 3,
-          "icon": {
-            "type": "img",
-            "value": "icons/diagnosis.png"
-          },
-          "tags": [
-            "diagnoz",
-            "tanı",
-            "diş",
-            "diş-şeması",
-            "işaretleme",
-            "plan",
-            "ilk-muayene",
-            "klinik-değerlendirme",
-            "tedavi-öncesi"
-          ],
-          "md": {
-            "slug": "tr/diagnosis-add",
-            "fileUrl": "/help/tr/tr-diagnosis-add.md"
-          },
-          "embeddedVideoUrl": "/videos/diagnosis-add.mp4"
-        },
-        {
-          "id": "treatment-discount",
-          "type": "doc",
-          "title": "Tedavi İndirimi",
-          "description": "Tedaviye indirim nasıl uygulanır?",
-          "order": 4,
-          "icon": {
-            "type": "img",
-            "value": "icons/treatment-discount.png"
-          },
-          "tags": [
-            "indirim",
-            "fiyat",
-            "tutar",
-            "yüzde",
-            "sabit",
-            "bazlı",
-            "toplam"
-          ],
-          "md": {
-            "slug": "tr/treatment-discount",
-            "fileUrl": "/help/tr/tr-treatment-discount.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-discount.mp4"
-        },
-        {
-          "id": "treatment-phases",
-          "type": "doc",
-          "title": "Tedavi Aşamaları",
-          "description": "Tedavi aşamaları nasıl tanımlanır?",
-          "order": 6,
-          "icon": {
-            "type": "img",
-            "value": "treatment-phase.png"
-          },
-          "tags": [
-            "aşama",
-            "faz",
-            "seans",
-            "cerrahi",
-            "randevu",
-            "plan",
-            "işlem",
-            "yönetim"
-          ],
-          "md": {
-            "slug": "tr/treatment-phases",
-            "fileUrl": "/help/tr/tr-treatment-phases.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-phases.mp4"
-        },
-        {
-          "id": "payment-add",
-          "type": "doc",
-          "title": "Ödeme Ekleme",
-          "description": "Tedavi planına ödeme nasıl eklenir?",
-          "order": 7,
-          "icon": {
-            "type": "img",
-            "value": "icons/payment.png"
-          },
-          "tags": [
-            "ödeme",
-            "tahsilat",
-            "borç",
-            "tutar",
-            "toplam",
-            "finans",
-            "para"
-          ],
-          "md": {
-            "slug": "tr/payment-add",
-            "fileUrl": "/help/tr/tr-payment-add.md"
-          },
-          "embeddedVideoUrl": "/videos/payment-add.mp4"
-        },
-        {
-          "id": "treatment-animation",
-          "type": "doc",
-          "title": "Tedavi Animasyonu",
-          "description": "Tedavi animasyonları nasıl oluşturulur?",
-          "order": 8,
-          "icon": {
-            "type": "img",
-            "value": "icons/treatment-animation.png"
-          },
-          "tags": [
-            "animasyon",
-            "yapayzeka",
-            "link",
-            "paylaşım",
-            "whatsapp",
-            "sunum",
-            "tedavi"
-          ],
-          "md": {
-            "slug": "tr/treatment-animation",
-            "fileUrl": "/help/tr/tr-treatment-animation.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-animation.mp4"
-        }
-      ]
-    },
-    {
       "id": "documents",
       "type": "folder",
       "title": "Döküman",
       "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
-      "order": 4,
+      "order": 5,
       "icon": {
         "type": "fa",
         "value": "fa-solid fa-file-pdf"
@@ -574,7 +575,7 @@
       "type": "folder",
       "title": "Taslaklar",
       "description": "PDF şablon yönetimi, tasarım ve gelişmiş işlemler",
-      "order": 5,
+      "order": 6,
       "icon": {
         "type": "fa",
         "value": "fa-solid fa-palette"
@@ -668,7 +669,7 @@
       "type": "folder",
       "title": "Tarife Ayarları",
       "description": "Tedavi fiyat listesi ve diagnoz ayarları",
-      "order": 6,
+      "order": 7,
       "icon": {
         "type": "fa",
         "value": "fa-solid fa-cog"
