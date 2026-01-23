@@ -25,8 +25,8 @@
         {
           "id": "quickstart-branding",
           "type": "doc",
-          "title": "Temel Kurulum ve Markalama",
-          "description": "Kliniğinizin renklerini ve markasını yansıtın",
+          "title": "Temel Kurulum ve Kurumsal Kimlik Oluşturma",
+          "description": "Kliniğinizin renklerini ve markasını yansıtın. Bu ayarlar, hastalarınıza gönderilen tekliflerin ve tedavi planlarının profesyonel görünmesini sağlar.",
           "order": 1,
           "icon": {
             "type": "img",
@@ -48,7 +48,7 @@
           "id": "quickstart-clinic-profile",
           "type": "doc",
           "title": "Klinik Profili ve Doktor Ekleme",
-          "description": "Klinik bilgilerini girin ve doktorları davet edin",
+          "description": "Klinik bilgilerini girin ve doktorları davet edin. Bu bilgiler, hastalarınıza gönderilen tekliflerin ve tedavi planlarının profesyonel görünmesini sağlar.",
           "order": 2,
           "icon": {
             "type": "img",
@@ -70,7 +70,7 @@
           "id": "quickstart-templates",
           "type": "doc",
           "title": "Taslak (Şablon) Yönetimi",
-          "description": "Teklif ve tedavi planı tasarımlarını ayarlayın",
+          "description": "Hastalarınıza göndereceğiniz tekliflerin ve tedavi planlarının ilk izlenimi çok önemlidir. Bu alanda, sunumlarınızın varsayılan tasarımını kendi tarzınıza göre ayarlayabilirsiniz.",
           "order": 3,
           "icon": {
             "type": "img",
@@ -92,7 +92,7 @@
           "id": "quickstart-plansetting",
           "type": "doc",
           "title": "Tarife ve Tedavi Listesi",
-          "description": "Fiyatları ve tedavi listesini yönetin",
+          "description": "Fiyatları ve tedavi listesini yönetin. Bu alanda, hastalarınıza sunacağınız fiyatları ve yapay zeka animasyonlarında onlara ne söylemek istediğinizi buradan yönetirsiniz.",
           "order": 4,
           "icon": {
             "type": "img",
