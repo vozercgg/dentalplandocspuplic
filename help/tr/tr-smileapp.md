@@ -1,4 +1,4 @@
-# ✨ 3D Gülüş Tasarımı (SmileApp)
+# ✨ Gülüş Tasarımı (SmileApp)
 
 Hastalarınızın tedavi sonucunu henüz koltuğa oturmadan görmelerini sağlayan, yapay zeka destekli gülüş tasarımı ve simülasyon modülüdür. Bu ekranda hastanın fotoğrafları ile dijital tasarım materyallerini birleştirerek estetik bir sunum hazırlayabilirsiniz.
 
@@ -7,7 +7,7 @@ Hastalarınızın tedavi sonucunu henüz koltuğa oturmadan görmelerini sağlay
 ## 1. 🖥️ Panel Yapısı
 Gülüş tasarımı ekranı, iş akışını kolaylaştırmak için bölümlere ayrılmıştır:
 
-* **Sol Panel (3D Tasarım):** Simülasyonun oluşturulduğu, diş formlarının seçildiği ve düzenlendiği ana çalışma alanıdır.
+* **Sol Panel (2D Tasarım):** Simülasyonun oluşturulduğu, diş formlarının seçildiği ve düzenlendiği ana çalışma alanıdır.
 * **Orta Panel (Fotoğraflar):** Tasarımda kullanılacak fotoğrafların depo alanıdır.
 
 * **Sağ Panel (Ek Dosyalar):** Tasarımda kullanılacak ek dosyaların yüklendiği depo alanıdır.
