@@ -7,7 +7,7 @@
       "id": "quickstart",
       "type": "folder",
       "title": "Hızlı Başlangıç",
-      "description": "DentalApp'ı  hızlıca kullanmaya başlamak için temel adımlar",
+      "description": "DentalPlan'ı  hızlıca kullanmaya başlamak için temel adımlar",
       "order": 0,
       "icon": {
         "type": "img",
@@ -138,7 +138,7 @@
       "id": "case-add",
       "type": "doc",
       "title": "Hasta Yönetimi ve Hasta Ekleme",
-      "description": "Hasta arama, yeni hasta oluşturma ve hasta detay sekmeleri",
+      "description": "Hasta arama, yeni hasta oluşturma ve hasta yönetimi",
       "order": 1,
       "icon": {
         "type": "fa",
@@ -183,36 +183,11 @@
       ],
       "children": [
         {
-          "id": "treatment-add",
-          "type": "doc",
-          "title": "Tedavi Ekleme",
-          "description": "Tedavi planına yeni işlem ekleyin ve diş/işlem seçimlerini yönetin.",
-          "order": 1,
-          "icon": {
-            "type": "img",
-            "value": "icons/implant.png"
-          },
-          "tags": [
-            "tedavi",
-            "işlem",
-            "ekleme",
-            "diş",
-            "arama",
-            "plan",
-            "seçim"
-          ],
-          "md": {
-            "slug": "tr/treatment-plan/treatment-add",
-            "fileUrl": "/help/tr/treatment-plan/tr-treatment-add.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-add.mp4"
-        },
-        {
           "id": "diagnosis-add",
           "type": "doc",
           "title": "Diagnoz Ekleme",
           "description": "Hasta için tanı (diagnoz) ekleyin ve diş şeması üzerinden işaretleme yapın.",
-          "order": 2,
+          "order": 1,
           "icon": {
             "type": "img",
             "value": "icons/diagnosis.png"
@@ -233,6 +208,31 @@
             "fileUrl": "/help/tr/tr-diagnosis-add.md"
           },
           "embeddedVideoUrl": "/videos/diagnosis-add.mp4"
+        },
+        {
+          "id": "treatment-add",
+          "type": "doc",
+          "title": "Tedavi Ekleme",
+          "description": "Tedavi planına yeni işlem ekleyin ve diş/işlem seçimlerini yönetin.",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/implant.png"
+          },
+          "tags": [
+            "tedavi",
+            "işlem",
+            "ekleme",
+            "diş",
+            "arama",
+            "plan",
+            "seçim"
+          ],
+          "md": {
+            "slug": "tr/treatment-plan/treatment-add",
+            "fileUrl": "/help/tr/treatment-plan/tr-treatment-add.md"
+          },
+          "embeddedVideoUrl": "/videos/treatment-add.mp4"
         },
         {
           "id": "treatment-edit",
@@ -475,7 +475,7 @@
         {
           "id": "document-create",
           "type": "doc",
-          "title": "Doküman (Teklif) Oluşturma",
+          "title": "Doküman ve Teklif Oluşturma",
           "description": "Hasta için PDF teklif dokümanı oluşturma ve sayfa seçimi",
           "order": 1,
           "icon": {
@@ -488,20 +488,46 @@
             "teklif",
             "oluşturma",
             "sayfa",
-            "seçim"
+            "seçim",
+            "fotoğraf"
           ],
           "md": {
-            "slug": "tr/document-create",
-            "fileUrl": "/help/tr/tr-document-create.md"
+            "slug": "tr/document/document-create",
+            "fileUrl": "/help/tr/document/tr-document-create.md"
           },
           "embeddedVideoUrl": "/videos/document-create.mp4"
         },
         {
+          "id": "document-reset",
+          "type": "doc",
+          "title": "Dokümanı Yenileme ve Sayfa Düzenleme",
+          "description": "Tedavi planı değişikliklerini dokümana yansıtma, sayfa yönetimi ve sıralama",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-reset.png"
+          },
+          "tags": [
+            "döküman",
+            "sıfırlama",
+            "güncelleme",
+            "yenileme",
+            "sayfa",
+            "düzenleme",
+            "sıralama"
+          ],
+          "md": {
+            "slug": "tr/document/document-reset",
+            "fileUrl": "/help/tr/document/tr-document-reset.md"
+          },
+          "embeddedVideoUrl": "/videos/document-reset.mp4"
+        },
+        {
           "id": "document-edit",
           "type": "doc",
-          "title": "Doküman Düzenleme (Editör)",
-          "description": "Oluşturulan doküman üzerinde görsel ve metin değişiklikleri yapma",
-          "order": 2,
+          "title": "Doküman Editörü ve Özelleştirme",
+          "description": "Doküman üzerinde görsel, metin ve tasarım değişiklikleri yapma",
+          "order": 3,
           "icon": {
             "type": "img",
             "value": "icons/document-edit.png"
@@ -512,20 +538,22 @@
             "editör",
             "görsel",
             "metin",
-            "tasarım"
+            "tasarım",
+            "renk",
+            "kurumsal-kimlik"
           ],
           "md": {
-            "slug": "tr/document-edit",
-            "fileUrl": "/help/tr/tr-document-edit.md"
+            "slug": "tr/document/document-edit",
+            "fileUrl": "/help/tr/document/tr-document-edit.md"
           },
           "embeddedVideoUrl": "/videos/document-edit.mp4"
         },
         {
           "id": "document-share",
           "type": "doc",
-          "title": "Dokümanı Paylaşma ve İndirme",
-          "description": "PDF olarak indirme, QR kod ile paylaşma veya WhatsApp'tan gönderme",
-          "order": 3,
+          "title": "Teklifi Paylaşma, İndirme ve Yazdırma",
+          "description": "PDF indirme, QR kod ile paylaşma, WhatsApp gönderme ve yazdırma",
+          "order": 4,
           "icon": {
             "type": "img",
             "value": "icons/document-share.png"
@@ -536,37 +564,15 @@
             "indirme",
             "pdf",
             "qr",
-            "whatsapp"
+            "whatsapp",
+            "yazdırma",
+            "link"
           ],
           "md": {
-            "slug": "tr/document-share",
-            "fileUrl": "/help/tr/tr-document-share.md"
+            "slug": "tr/document/document-share",
+            "fileUrl": "/help/tr/document/tr-document-share.md"
           },
           "embeddedVideoUrl": "/videos/document-share.mp4"
-        },
-        {
-          "id": "document-reset",
-          "type": "doc",
-          "title": "Dokümanı Sıfırlama ve Güncelleme",
-          "description": "Sonradan eklenen verileri (Diagnoz, Dil Değişimi) dokümana yansıtma",
-          "order": 4,
-          "icon": {
-            "type": "img",
-            "value": "icons/document-reset.png"
-          },
-          "tags": [
-            "döküman",
-            "sıfırlama",
-            "güncelleme",
-            "diagnoz",
-            "dil",
-            "veri"
-          ],
-          "md": {
-            "slug": "tr/document-reset",
-            "fileUrl": "/help/tr/tr-document-reset.md"
-          },
-          "embeddedVideoUrl": "/videos/document-reset.mp4"
         }
       ]
     },
