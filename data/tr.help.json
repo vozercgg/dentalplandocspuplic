@@ -30,7 +30,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/quickstart-branding.png"
+            "value": "icons/brand-1.png"
           },
           "tags": [
             "markalama",
@@ -52,7 +52,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/quickstart-clinic-profile.png"
+            "value": "icons/brand-doc.png"
           },
           "tags": [
             "klinik",
@@ -74,7 +74,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/quickstart-templates.png"
+            "value": "icons/brand-document.png"
           },
           "tags": [
             "taslak",
@@ -96,7 +96,7 @@
           "order": 4,
           "icon": {
             "type": "img",
-            "value": "icons/quickstart-plansetting.png"
+            "value": "icons/brand-tariff.png"
           },
           "tags": [
             "tarife",
@@ -118,7 +118,7 @@
           "order": 5,
           "icon": {
             "type": "img",
-            "value": "icons/quickstart-first-patient.png"
+            "value": "icons/brand-add.png"
           },
           "tags": [
             "hasta",
@@ -292,7 +292,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "treatment-phase.png"
+            "value": "icons/treatment-phase.png"
           },
           "tags": [
             "aşama",
@@ -447,7 +447,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/document-create.png"
+            "value": "icons/document-offer.png"
           },
           "tags": [
             "döküman",
@@ -472,7 +472,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/document-reset.png"
+            "value": "icons/document-edit.png"
           },
           "tags": [
             "döküman",
@@ -497,7 +497,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/document-edit.png"
+            "value": "icons/document-editor.png"
           },
           "tags": [
             "döküman",
@@ -595,7 +595,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/plans-settings-treatment.png"
+            "value": "icons/tariff-treatment.png"
           },
           "tags": [
             "tarife",
@@ -621,7 +621,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/plans-settings-diagnosis.png"
+            "value": "icons/plansetting-diagnose.png"
           },
           "tags": [
             "tarife",
@@ -835,11 +835,35 @@
             "slug": "tr/templates/templates-datapage",
             "fileUrl": "/help/tr/templates/tr-templates-datapage.md"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "editor",
+      "type": "folder",
+      "title": "Editör Araçları",
+      "description": "PDF şablon editöründe metin, görsel, düzen ve veri araçlarının kullanımı",
+      "order": 10,
+      "icon": {
+        "type": "img",
+        "value": "icons/editor.png"
+      },
+      "tags": [
+        "editör",
+        "araç",
+        "metin",
+        "görsel",
+        "renk",
+        "düzen",
+        "katman",
+        "veri",
+        "tasarım"
+      ],
+      "children": [
         {
           "id": "templates-design",
           "type": "doc",
-          "title": "Görsel Tasarım Araçları ve Renk Yönetimi",
+          "title": "Editör Araçları",
           "description": "Metin, görsel, şekil ve tasarım araçlarını kullanarak şablonları özelleştirme",
           "order": 5,
           "icon": {
@@ -859,34 +883,10 @@
           ],
           "md": {
             "slug": "tr/templates/templates-design",
-            "fileUrl": "/help/tr/templates/tr-templates-design.md"
+            "fileUrl": "/help/tr/editor/tr-templates-design.md"
           },
           "embeddedVideoUrl": "/videos/templates-design.mp4"
-        }
-      ]
-    },
-    {
-      "id": "editor",
-      "type": "folder",
-      "title": "Editör Araçları",
-      "description": "PDF şablon editöründe metin, görsel, düzen ve veri araçlarının kullanımı",
-      "order": 10,
-      "icon": {
-        "type": "img",
-        "value": "icons/editor-main.png"
-      },
-      "tags": [
-        "editör",
-        "araç",
-        "metin",
-        "görsel",
-        "renk",
-        "düzen",
-        "katman",
-        "veri",
-        "tasarım"
-      ],
-      "children": [
+        },
         {
           "id": "editor-tools-text-color",
           "type": "doc",
