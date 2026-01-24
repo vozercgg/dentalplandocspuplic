@@ -137,7 +137,7 @@
     {
       "id": "case-add",
       "type": "doc",
-      "title": "Hasta Yönetimi ve Hasta Ekleme",
+      "title": "Hasta Yönetimi ve Yeni Kayıt",
       "description": "Hasta arama, yeni hasta oluşturma ve hasta yönetimi",
       "order": 1,
       "icon": {
@@ -153,11 +153,61 @@
         "hasta-ekleme",
         "hasta-araması",
         "kayıt",
+        "yeni-hasta",
+        "hasta-yönetimi",
+        "arama"
+      ]
+    },
+    {
+      "id": "case-detail",
+      "type": "doc",
+      "title": "Hasta Detay Ekranı ve Sekmeler",
+      "description": "Hasta detay ekranı, sekmeler ve işlevleri hakkında bilgi",
+      "order": 2,
+      "icon": {
+        "type": "img",
+        "value": "icons/case-detail.png"
+      },
+      "md": {
+        "slug": "tr/case-detail",
+        "fileUrl": "/help/tr/tr-case-detail.md"
+      },
+      "tags": [
+        "hasta",
         "hasta-detayı",
         "sekme",
-        "plan",
+        "panel",
         "tedavi",
-        "vaka"
+        "animasyon",
+        "doküman",
+        "gülüş-tasarımı",
+        "notlar"
+      ]
+    },
+    {
+      "id": "case-plans",
+      "type": "doc",
+      "title": "Plan Yönetimi ve Ayarlar",
+      "description": "Tedavi planları, dil ve para birimi seçimi, alternatif plan oluşturma",
+      "order": 3,
+      "icon": {
+        "type": "img",
+        "value": "icons/case-plans.png"
+      },
+      "md": {
+        "slug": "tr/case-plans",
+        "fileUrl": "/help/tr/tr-case-plans.md"
+      },
+      "tags": [
+        "hasta",
+        "plan",
+        "tedavi-planı",
+        "dil",
+        "para-birimi",
+        "alternatif",
+        "senaryo",
+        "ayar",
+        "yönetim"
       ]
     },
     {
@@ -165,7 +215,7 @@
       "type": "folder",
       "title": "Tedavi Planı",
       "description": "Tedavi ekleme ve düzenleme, aşama tanımlama, indirim uygulama ve animasyon oluşturma süreçleri",
-      "order": 2,
+      "order": 4,
       "icon": {
         "type": "img",
         "value": "icons/treatment-plan.png"
@@ -205,7 +255,7 @@
           ],
           "md": {
             "slug": "tr/diagnosis-add",
-            "fileUrl": "/help/tr/tr-diagnosis-add.md"
+            "fileUrl": "/help/tr/treatment-plan/tr-diagnosis-add.md"
           },
           "embeddedVideoUrl": "/videos/diagnosis-add.mp4"
         },
@@ -235,36 +285,11 @@
           "embeddedVideoUrl": "/videos/treatment-add.mp4"
         },
         {
-          "id": "treatment-edit",
-          "type": "doc",
-          "title": "Tedavi Düzenleme",
-          "description": "Eklenen tedavileri düzenleyin; sıralayın veya silin.",
-          "order": 3,
-          "icon": {
-            "type": "img",
-            "value": "treatment-edit.png"
-          },
-          "tags": [
-            "tedavi",
-            "düzenleme",
-            "silme",
-            "sıralama",
-            "plan",
-            "işlem",
-            "satır"
-          ],
-          "md": {
-            "slug": "tr/treatment-plan/treatment-edit",
-            "fileUrl": "/help/tr/treatment-plan/tr-treatment-edit.md"
-          },
-          "embeddedVideoUrl": "/videos/treatment-edit.mp4"
-        },
-        {
           "id": "treatment-phases",
           "type": "doc",
           "title": "Tedavi Aşamaları",
           "description": "Tedavileri seans/aşama bazında gruplandırın ve süreç planını daha anlaşılır hale getirin.",
-          "order": 4,
+          "order": 3,
           "icon": {
             "type": "img",
             "value": "treatment-phase.png"
@@ -290,7 +315,7 @@
           "type": "doc",
           "title": "Tedavi İndirimi",
           "description": "Toplam tutara yüzde veya sabit indirim uygulayın ve fiyatlandırmayı hızlıca güncelleyin.",
-          "order": 5,
+          "order": 4,
           "icon": {
             "type": "img",
             "value": "icons/treatment-discount.png"
@@ -315,7 +340,7 @@
           "type": "doc",
           "title": "Tedavi Animasyonu",
           "description": "Tedavi planınızı animasyona dönüştürün ve WhatsApp/bağlantı ile hastalarla paylaşın.",
-          "order": 6,
+          "order": 5,
           "icon": {
             "type": "img",
             "value": "icons/treatment-animation.png"
@@ -331,36 +356,68 @@
           ],
           "md": {
             "slug": "tr/treatment-animation",
-            "fileUrl": "/help/tr/tr-treatment-animation.md"
+            "fileUrl": "/help/tr/treatment-plan/tr-treatment-animation.md"
           },
           "embeddedVideoUrl": "/videos/treatment-animation.mp4"
-        },
-        {
-          "id": "treatment-smileapp",
-          "type": "doc",
-          "title": "3D Gülüş Tasarımı (SmileApp)",
-          "description": "Hastalarınızın tedavi sonucunu yapay zeka ile simüle edilen 3D gülüş tasarımında gösterin.",
-          "order": 7,
-          "icon": {
-            "type": "img",
-            "value": "icons/smileapp.png"
-          },
-          "tags": [
-            "smileapp",
-            "gülüş",
-            "tasarım",
-            "3d",
-            "simülasyon",
-            "yapay-zeka",
-            "estetik",
-            "sunum",
-            "hasta-sunumu"
-          ],
-          "md": {
-            "slug": "tr/treatment-plan/treatment-smileapp",
-            "fileUrl": "/help/tr/treatment-plan/tr-smileapp.md"
-          }
         }
+      ]
+    },
+    {
+      "id": "treatment-edit",
+      "type": "doc",
+      "title": "Tedavi Düzenleme ve Detaylandırma",
+      "description": "Eklenen tedavileri düzenleyin, sıralayın, fiyatları yönetin ve diş seçimlerini güncelleyin.",
+      "order": 5,
+      "icon": {
+        "type": "img",
+        "value": "icons/treatment-edit.png"
+      },
+      "md": {
+        "slug": "tr/treatment-edit",
+        "fileUrl": "/help/tr/tr-treatment-edit.md"
+      },
+      "tags": [
+        "tedavi",
+        "düzenleme",
+        "detaylandırma",
+        "silme",
+        "sıralama",
+        "fiyat",
+        "fiyat-yönetimi",
+        "diş-seçimi",
+        "not",
+        "plan",
+        "işlem",
+        "tablo"
+      ],
+      "embeddedVideoUrl": "/videos/treatment-edit.mp4"
+    },
+    {
+      "id": "treatment-smileapp",
+      "type": "doc",
+      "title": "3D Gülüş Tasarımı (SmileApp)",
+      "description": "Hastalarınızın tedavi sonucunu henüz koltuğa oturmadan görmelerini sağlayan, yapay zeka destekli gülüş tasarımı ve simülasyon modülü.",
+      "order": 6,
+      "icon": {
+        "type": "img",
+        "value": "icons/smileapp.png"
+      },
+      "md": {
+        "slug": "tr/treatment-smileapp",
+        "fileUrl": "/help/tr/tr-smileapp.md"
+      },
+      "tags": [
+        "smileapp",
+        "gülüş",
+        "tasarım",
+        "3d",
+        "simülasyon",
+        "yapay-zeka",
+        "estetik",
+        "sunum",
+        "hasta-sunumu",
+        "fotoğraf",
+        "panel"
       ]
     },
     {
@@ -368,7 +425,7 @@
       "type": "folder",
       "title": "Döküman",
       "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
-      "order": 3,
+      "order": 7,
       "icon": {
         "type": "img",
         "value": "/icons/documents-main.png"
@@ -491,7 +548,7 @@
       "type": "doc",
       "title": "Otel & Transferler",
       "description": "Konaklama ve transfer süreçleri",
-      "order": 4,
+      "order": 8,
       "icon": {
         "type": "img",
         "value": "icons/travel-bag.png"
@@ -514,7 +571,7 @@
       "type": "folder",
       "title": "Tarife Ayarları",
       "description": "Standart tedavi listesi, fiyatları ve diagnoz tanımlarını yönetme",
-      "order": 6,
+      "order": 10,
       "icon": {
         "type": "img",
         "value": "icons/price-list.png"
@@ -589,7 +646,7 @@
       "type": "folder",
       "title": "Klinik Ayarları",
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
-      "order": 7,
+      "order": 11,
       "icon": {
         "type": "img",
         "value": "icons/corporation.png"
@@ -660,7 +717,7 @@
       "type": "folder",
       "title": "Taslaklar",
       "description": "PDF tasarım şablonları yönetimi, dil seçimi, görsel tasarım ve gelişmiş sayfa oluşturma",
-      "order": 5,
+      "order": 9,
       "icon": {
         "type": "img",
         "value": "icons/templates-main.png"
@@ -701,53 +758,82 @@
           }
         },
         {
-          "id": "templates-advanced",
+          "id": "templates-general",
           "type": "doc",
-          "title": "Gelişmiş Şablon Yönetimi ve Sayfa Oluşturma",
-          "description": "Sayfa oluşturma, kopyalama, diller arası transfer, sıralama ve varsayılan seçimi",
+          "title": "Şablon Yönetimi: Kopyalama, Sıralama ve Varsayılanlar",
+          "description": "Sayfa kopyalama, klonlama, diller arası transfer, PDF sayfa sıralaması düzenleme ve otomatik seçim ayarları",
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/templates-advanced.png"
+            "value": "icons/templates-general.png"
           },
           "tags": [
             "taslak",
-            "sayfa",
+            "şablon",
             "kopyalama",
             "klonlama",
             "transfer",
             "sıralama",
+            "sayfa-sıralaması",
             "varsayılan",
-            "dinamik-veri"
+            "otomatik-seçim",
+            "dil-transfer"
           ],
           "md": {
-            "slug": "tr/templates/templates-advanced",
-            "fileUrl": "/help/tr/templates/tr-templates-advanced.md"
-          },
-          "embeddedVideoUrl": "/videos/templates-advanced.mp4"
+            "slug": "tr/templates/templates-general",
+            "fileUrl": "/help/tr/templates/tr-templates-general.md"
+          }
         },
         {
-          "id": "templates-structure",
+          "id": "templates-fullpage",
           "type": "doc",
-          "title": "Sayfa Türleri ve Veri Mantığı",
-          "description": "Tam sayfa ve veri sayfası türleri, sayfa yapısı ve güvenli düzenleme kuralları",
+          "title": "Tam Sayfa (Full Page) Oluşturma ve Düzenleme",
+          "description": "Kapak, giriş, arka kapak gibi serbest tasarım sayfalarının oluşturulması ve düzenlenmesi",
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/templates-structure.png"
+            "value": "icons/templates-fullpage.png"
           },
           "tags": [
             "taslak",
-            "sayfa",
-            "veri",
-            "yapı",
-            "dinamik",
-            "değişkenler",
-            "kurallar"
+            "şablon",
+            "tam-sayfa",
+            "full-page",
+            "kapak",
+            "giriş",
+            "serbest-tasarım",
+            "sayfa-oluşturma",
+            "veri-paneli"
           ],
           "md": {
-            "slug": "tr/templates/templates-structure",
-            "fileUrl": "/help/tr/templates/tr-templates-structure.md"
+            "slug": "tr/templates/templates-fullpage",
+            "fileUrl": "/help/tr/templates/tr-templates-fullpage.md"
+          }
+        },
+        {
+          "id": "templates-datapage",
+          "type": "doc",
+          "title": "Data Sayfası (Dinamik İçerik) Oluşturma ve Yapısı",
+          "description": "Tedavi tablosu, teşhis gibi dinamik içerikli sayfaların oluşturulması ve güvenli düzenleme kuralları",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-datapage.png"
+          },
+          "tags": [
+            "taslak",
+            "şablon",
+            "data-sayfası",
+            "dinamik-içerik",
+            "tedavi-tablosu",
+            "teşhis",
+            "sayfa-yapısı",
+            "dokunulmaz-bölge",
+            "veri-kullanımı"
+          ],
+          "md": {
+            "slug": "tr/templates/templates-datapage",
+            "fileUrl": "/help/tr/templates/tr-templates-datapage.md"
           }
         },
         {
@@ -755,7 +841,7 @@
           "type": "doc",
           "title": "Görsel Tasarım Araçları ve Renk Yönetimi",
           "description": "Metin, görsel, şekil ve tasarım araçlarını kullanarak şablonları özelleştirme",
-          "order": 4,
+          "order": 5,
           "icon": {
             "type": "img",
             "value": "icons/templates-design.png"
@@ -767,7 +853,9 @@
             "metin",
             "araç",
             "header-footer",
-            "tema"
+            "tema",
+            "renk-yönetimi",
+            "katman"
           ],
           "md": {
             "slug": "tr/templates/templates-design",
