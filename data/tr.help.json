@@ -338,6 +338,129 @@
       ]
     },
     {
+      "id": "documents",
+      "type": "folder",
+      "title": "Döküman",
+      "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
+      "order": 5,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-file-pdf"
+      },
+      "tags": [
+        "döküman",
+        "pdf",
+        "teklif",
+        "düzenleme",
+        "paylaşım",
+        "indirme"
+      ],
+      "children": [
+        {
+          "id": "document-create",
+          "type": "doc",
+          "title": "Doküman ve Teklif Oluşturma",
+          "description": "Hasta için kişiselleştirilmiş teklif dokümanı oluşturma ve sayfa seçimi",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-create.png"
+          },
+          "tags": [
+            "döküman",
+            "pdf",
+            "teklif",
+            "oluşturma",
+            "sayfa",
+            "seçim",
+            "fotoğraf"
+          ],
+          "md": {
+            "slug": "tr/document/document-create",
+            "fileUrl": "/help/tr/document/tr-document-create.md"
+          },
+          "embeddedVideoUrl": "/videos/document-create.mp4"
+        },
+        {
+          "id": "document-reset",
+          "type": "doc",
+          "title": "Dokümanı Yenileme ve Sayfa Düzenleme",
+          "description": "Tedavi planı değişikliklerini dokümana yansıtma, sayfa yönetimi ve sıralama",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-reset.png"
+          },
+          "tags": [
+            "döküman",
+            "sıfırlama",
+            "güncelleme",
+            "yenileme",
+            "sayfa",
+            "düzenleme",
+            "sıralama"
+          ],
+          "md": {
+            "slug": "tr/document/document-reset",
+            "fileUrl": "/help/tr/document/tr-document-reset.md"
+          },
+          "embeddedVideoUrl": "/videos/document-reset.mp4"
+        },
+        {
+          "id": "document-edit",
+          "type": "doc",
+          "title": "Doküman Editörü ve Özelleştirme",
+          "description": "Doküman üzerinde görsel, metin ve tasarım değişiklikleri yapma",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-edit.png"
+          },
+          "tags": [
+            "döküman",
+            "düzenleme",
+            "editör",
+            "görsel",
+            "metin",
+            "tasarım",
+            "renk",
+            "kurumsal-kimlik"
+          ],
+          "md": {
+            "slug": "tr/document/document-edit",
+            "fileUrl": "/help/tr/document/tr-document-edit.md"
+          },
+          "embeddedVideoUrl": "/videos/document-edit.mp4"
+        },
+        {
+          "id": "document-share",
+          "type": "doc",
+          "title": "Teklifi Paylaşma, İndirme ve Yazdırma",
+          "description": "Dökümanı paylaşma, PDF indirme, QR kod ile paylaşma, WhatsApp gönderme ve yazdırma",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/document-share.png"
+          },
+          "tags": [
+            "döküman",
+            "paylaşım",
+            "indirme",
+            "pdf",
+            "qr",
+            "whatsapp",
+            "yazdırma",
+            "link"
+          ],
+          "md": {
+            "slug": "tr/document/document-share",
+            "fileUrl": "/help/tr/document/tr-document-share.md"
+          },
+          "embeddedVideoUrl": "/videos/document-share.mp4"
+        }
+      ]
+    },
+    {
       "id": "clinic-settings",
       "type": "folder",
       "title": "Klinik Ayarları",
@@ -454,133 +577,10 @@
       ]
     },
     {
-      "id": "documents",
-      "type": "folder",
-      "title": "Döküman",
-      "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
-      "order": 5,
-      "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-file-pdf"
-      },
-      "tags": [
-        "döküman",
-        "pdf",
-        "teklif",
-        "düzenleme",
-        "paylaşım",
-        "indirme"
-      ],
-      "children": [
-        {
-          "id": "document-create",
-          "type": "doc",
-          "title": "Doküman ve Teklif Oluşturma",
-          "description": "Hasta için PDF teklif dokümanı oluşturma ve sayfa seçimi",
-          "order": 1,
-          "icon": {
-            "type": "img",
-            "value": "icons/document-create.png"
-          },
-          "tags": [
-            "döküman",
-            "pdf",
-            "teklif",
-            "oluşturma",
-            "sayfa",
-            "seçim",
-            "fotoğraf"
-          ],
-          "md": {
-            "slug": "tr/document/document-create",
-            "fileUrl": "/help/tr/document/tr-document-create.md"
-          },
-          "embeddedVideoUrl": "/videos/document-create.mp4"
-        },
-        {
-          "id": "document-reset",
-          "type": "doc",
-          "title": "Dokümanı Yenileme ve Sayfa Düzenleme",
-          "description": "Tedavi planı değişikliklerini dokümana yansıtma, sayfa yönetimi ve sıralama",
-          "order": 2,
-          "icon": {
-            "type": "img",
-            "value": "icons/document-reset.png"
-          },
-          "tags": [
-            "döküman",
-            "sıfırlama",
-            "güncelleme",
-            "yenileme",
-            "sayfa",
-            "düzenleme",
-            "sıralama"
-          ],
-          "md": {
-            "slug": "tr/document/document-reset",
-            "fileUrl": "/help/tr/document/tr-document-reset.md"
-          },
-          "embeddedVideoUrl": "/videos/document-reset.mp4"
-        },
-        {
-          "id": "document-edit",
-          "type": "doc",
-          "title": "Doküman Editörü ve Özelleştirme",
-          "description": "Doküman üzerinde görsel, metin ve tasarım değişiklikleri yapma",
-          "order": 3,
-          "icon": {
-            "type": "img",
-            "value": "icons/document-edit.png"
-          },
-          "tags": [
-            "döküman",
-            "düzenleme",
-            "editör",
-            "görsel",
-            "metin",
-            "tasarım",
-            "renk",
-            "kurumsal-kimlik"
-          ],
-          "md": {
-            "slug": "tr/document/document-edit",
-            "fileUrl": "/help/tr/document/tr-document-edit.md"
-          },
-          "embeddedVideoUrl": "/videos/document-edit.mp4"
-        },
-        {
-          "id": "document-share",
-          "type": "doc",
-          "title": "Teklifi Paylaşma, İndirme ve Yazdırma",
-          "description": "PDF indirme, QR kod ile paylaşma, WhatsApp gönderme ve yazdırma",
-          "order": 4,
-          "icon": {
-            "type": "img",
-            "value": "icons/document-share.png"
-          },
-          "tags": [
-            "döküman",
-            "paylaşım",
-            "indirme",
-            "pdf",
-            "qr",
-            "whatsapp",
-            "yazdırma",
-            "link"
-          ],
-          "md": {
-            "slug": "tr/document/document-share",
-            "fileUrl": "/help/tr/document/tr-document-share.md"
-          },
-          "embeddedVideoUrl": "/videos/document-share.mp4"
-        }
-      ]
-    },
-    {
       "id": "templates",
       "type": "folder",
       "title": "Taslaklar",
-      "description": "PDF şablon yönetimi, tasarım ve gelişmiş işlemler",
+      "description": "PDF tasarım şablonları yönetimi, dil seçimi, görsel tasarım ve gelişmiş sayfa oluşturma",
       "order": 6,
       "icon": {
         "type": "fa",
@@ -592,14 +592,16 @@
         "pdf",
         "tasarım",
         "dil",
-        "yönetim"
+        "yönetim",
+        "görsel",
+        "sayfa"
       ],
       "children": [
         {
           "id": "templates-management",
           "type": "doc",
-          "title": "PDF Şablon ve Dil Yönetimi",
-          "description": "PDF dokümanları için dil bazlı şablon seti seçimi ve varsayılan ayarlama",
+          "title": "Taslak ve Dil Yönetimi",
+          "description": "PDF şablonları seçme, dil bazlı tasarım setleri ve varsayılan ayarlar",
           "order": 1,
           "icon": {
             "type": "img",
@@ -608,63 +610,89 @@
           "tags": [
             "taslak",
             "şablon",
-            "pdf",
             "dil",
             "yönetim",
-            "varsayılan"
+            "varsayılan",
+            "seçim",
+            "ayar"
           ],
           "md": {
-            "slug": "tr/templates-management",
-            "fileUrl": "/help/tr/tr-templates-management.md"
+            "slug": "tr/templates/templates-management",
+            "fileUrl": "/help/tr/templates/tr-templates-management.md"
+          }
+        },
+        {
+          "id": "templates-structure",
+          "type": "doc",
+          "title": "Sayfa Türleri ve Veri Mantığı",
+          "description": "Tam sayfa ve veri sayfası türleri, sayfa yapısı ve güvenli düzenleme kuralları",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-structure.png"
+          },
+          "tags": [
+            "taslak",
+            "sayfa",
+            "veri",
+            "yapı",
+            "dinamik",
+            "değişkenler",
+            "kurallar"
+          ],
+          "md": {
+            "slug": "tr/templates/templates-structure",
+            "fileUrl": "/help/tr/templates/tr-templates-structure.md"
           }
         },
         {
           "id": "templates-design",
           "type": "doc",
-          "title": "Sayfa Tasarımı ve Düzenleme",
-          "description": "Kapak, giriş, tedavi gibi PDF sayfalarının görsel tasarımı",
-          "order": 2,
+          "title": "Görsel Tasarım Araçları ve Renk Yönetimi",
+          "description": "Metin, görsel, şekil ve tasarım araçlarını kullanarak şablonları özelleştirme",
+          "order": 3,
           "icon": {
             "type": "img",
             "value": "icons/templates-design.png"
           },
           "tags": [
-            "taslak",
             "tasarım",
-            "sayfa",
-            "kapak",
-            "giriş",
+            "renk",
             "görsel",
-            "düzenleme"
+            "metin",
+            "araç",
+            "header-footer",
+            "tema"
           ],
           "md": {
-            "slug": "tr/templates-design",
-            "fileUrl": "/help/tr/tr-templates-design.md"
+            "slug": "tr/templates/templates-design",
+            "fileUrl": "/help/tr/templates/tr-templates-design.md"
           },
           "embeddedVideoUrl": "/videos/templates-design.mp4"
         },
         {
           "id": "templates-advanced",
           "type": "doc",
-          "title": "Kopyalama ve Özel Sayfa Oluşturma",
-          "description": "Şablonları diller arası kopyalama, tam sayfa görsel ve dinamik veri sayfaları oluşturma",
-          "order": 3,
+          "title": "Gelişmiş Şablon Yönetimi ve Sayfa Oluşturma",
+          "description": "Sayfa oluşturma, kopyalama, diller arası transfer, sıralama ve varsayılan seçimi",
+          "order": 4,
           "icon": {
             "type": "img",
             "value": "icons/templates-advanced.png"
           },
           "tags": [
             "taslak",
-            "kopyalama",
-            "özel",
             "sayfa",
-            "görsel",
-            "dinamik",
-            "veri"
+            "kopyalama",
+            "klonlama",
+            "transfer",
+            "sıralama",
+            "varsayılan",
+            "dinamik-veri"
           ],
           "md": {
-            "slug": "tr/templates-advanced",
-            "fileUrl": "/help/tr/tr-templates-advanced.md"
+            "slug": "tr/templates/templates-advanced",
+            "fileUrl": "/help/tr/templates/tr-templates-advanced.md"
           },
           "embeddedVideoUrl": "/videos/templates-advanced.mp4"
         }
@@ -674,7 +702,7 @@
       "id": "plans-settings",
       "type": "folder",
       "title": "Tarife Ayarları",
-      "description": "Tedavi fiyat listesi ve diagnoz ayarları",
+      "description": "Standart tedavi listesi, fiyatları ve diagnoz tanımlarını yönetme",
       "order": 7,
       "icon": {
         "type": "fa",
@@ -686,14 +714,16 @@
         "tedavi",
         "fiyat",
         "diagnoz",
-        "liste"
+        "tanı",
+        "liste",
+        "yönetim"
       ],
       "children": [
         {
           "id": "plans-settings-treatment",
           "type": "doc",
           "title": "Tedavi ve Fiyat Listesi Ayarları",
-          "description": "Kliniğin standart tedavi listesini, fiyatlarını ve para birimini yönetme",
+          "description": "Standart tedavi listesini, fiyatları, para birimini ve açıklamaları yönetme",
           "order": 1,
           "icon": {
             "type": "img",
@@ -704,13 +734,14 @@
             "tedavi",
             "fiyat",
             "liste",
-            "para",
-            "birim",
-            "yönetim"
+            "para-birimi",
+            "yönetim",
+            "açıklama",
+            "model"
           ],
           "md": {
-            "slug": "tr/plans-settings-treatment",
-            "fileUrl": "/help/tr/tr-plans-settings-treatment.md"
+            "slug": "tr/plan-setting/plans-settings-treatment",
+            "fileUrl": "/help/tr/plan-setting/tr-plans-settings-treatment.md"
           },
           "embeddedVideoUrl": "/videos/plans-settings-treatment.mp4"
         },
@@ -718,7 +749,7 @@
           "id": "plans-settings-diagnosis",
           "type": "doc",
           "title": "Diagnoz (Tanı) Listesi Ayarları",
-          "description": "Klinik diagnoz listesini ve hasta bilgilendirme metinlerini düzenleme",
+          "description": "Klinik diagnoz tanılarını ve hasta açıklamalarını yönetme",
           "order": 2,
           "icon": {
             "type": "img",
@@ -730,12 +761,13 @@
             "tanı",
             "liste",
             "hasta",
-            "bilgilendirme",
-            "metin"
+            "açıklama",
+            "teşhis",
+            "yönetim"
           ],
           "md": {
-            "slug": "tr/plans-settings-diagnosis",
-            "fileUrl": "/help/tr/tr-plans-settings-diagnosis.md"
+            "slug": "tr/plan-setting/plans-settings-diagnosis",
+            "fileUrl": "/help/tr/plan-setting/tr-plans-settings-diagnosis.md"
           },
           "embeddedVideoUrl": "/videos/plans-settings-diagnosis.mp4"
         }
