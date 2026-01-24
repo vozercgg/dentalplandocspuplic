@@ -141,8 +141,8 @@
       "description": "Hasta arama, yeni hasta oluşturma ve hasta yönetimi",
       "order": 1,
       "icon": {
-        "type": "fa",
-        "value": "icons/scaling.png"
+        "type": "img",
+        "value": "icons/case-add.png"
       },
       "md": {
         "slug": "tr/case-add",
@@ -167,8 +167,8 @@
       "description": "Tedavi ekleme ve düzenleme, aşama tanımlama, indirim uygulama ve animasyon oluşturma süreçleri",
       "order": 2,
       "icon": {
-        "type": "fa",
-        "value": "icons/scaling.png"
+        "type": "img",
+        "value": "icons/treatment-plan.png"
       },
       "tags": [
         "tedavi",
@@ -370,8 +370,8 @@
       "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
       "order": 3,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-file-pdf"
+        "type": "img",
+        "value": "/icons/documents-main.png"
       },
       "tags": [
         "döküman",
@@ -493,8 +493,8 @@
       "description": "Konaklama ve transfer süreçleri",
       "order": 4,
       "icon": {
-        "type": "fa",
-        "value": "icons/hotel.png"
+        "type": "img",
+        "value": "icons/travel-bag.png"
       },
       "md": {
         "slug": "tr/hotels-transfers",
@@ -516,8 +516,8 @@
       "description": "Standart tedavi listesi, fiyatları ve diagnoz tanımlarını yönetme",
       "order": 6,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-cog"
+        "type": "img",
+        "value": "icons/price-list.png"
       },
       "tags": [
         "tarife",
@@ -591,8 +591,8 @@
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
       "order": 7,
       "icon": {
-        "type": "fa",
-        "value": "icons/clinic-profile.png"
+        "type": "img",
+        "value": "icons/corporation.png"
       },
       "tags": [
         "klinik",
@@ -662,8 +662,8 @@
       "description": "PDF tasarım şablonları yönetimi, dil seçimi, görsel tasarım ve gelişmiş sayfa oluşturma",
       "order": 5,
       "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-palette"
+        "type": "img",
+        "value": "icons/templates-main.png"
       },
       "tags": [
         "taslak",
