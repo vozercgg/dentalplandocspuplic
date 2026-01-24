@@ -865,7 +865,7 @@
           "type": "doc",
           "title": "Editör Araçları",
           "description": "Metin, görsel, şekil ve tasarım araçlarını kullanarak şablonları özelleştirme",
-          "order": 5,
+          "order": 1,
           "icon": {
             "type": "img",
             "value": "icons/templates-design.png"
@@ -892,7 +892,7 @@
           "type": "doc",
           "title": "Metin Araçları ve Renk Yönetimi",
           "description": "Yazı tiplerini yönetmek, metin eklemek ve kurumsal renklerinizi ayarlamak için üst ve sağ panelleri kullanımı",
-          "order": 1,
+          "order": 2,
           "icon": {
             "type": "img",
             "value": "icons/editor-text-color.png"
@@ -919,7 +919,7 @@
           "type": "doc",
           "title": "Görsel, Medya ve Şekiller",
           "description": "Fotoğraf yükleme, stok görseller, şekiller ve desenler ile tasarımı zenginleştirme",
-          "order": 2,
+          "order": 3,
           "icon": {
             "type": "img",
             "value": "icons/editor-media.png"
@@ -946,7 +946,7 @@
           "type": "doc",
           "title": "Sayfa Düzeni, Üst/Alt Bilgi ve Katmanlar",
           "description": "Header ve footer ekleme, sayfa düzeni oluşturma, katman yönetimi ve objelerin sıralanması",
-          "order": 3,
+          "order": 4,
           "icon": {
             "type": "img",
             "value": "icons/editor-layout.png"
@@ -974,7 +974,7 @@
           "type": "doc",
           "title": "Akıllı Veri (Data Variables) Kullanımı",
           "description": "Hasta bilgileri, klinik verileri ve dinamik içerik için veri değişkenlerinin kullanımı",
-          "order": 4,
+          "order": 5,
           "icon": {
             "type": "img",
             "value": "icons/editor-data.png"
