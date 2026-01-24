@@ -334,6 +334,32 @@
             "fileUrl": "/help/tr/tr-treatment-animation.md"
           },
           "embeddedVideoUrl": "/videos/treatment-animation.mp4"
+        },
+        {
+          "id": "treatment-smileapp",
+          "type": "doc",
+          "title": "3D Gülüş Tasarımı (SmileApp)",
+          "description": "Hastalarınızın tedavi sonucunu yapay zeka ile simüle edilen 3D gülüş tasarımında gösterin.",
+          "order": 7,
+          "icon": {
+            "type": "img",
+            "value": "icons/smileapp.png"
+          },
+          "tags": [
+            "smileapp",
+            "gülüş",
+            "tasarım",
+            "3d",
+            "simülasyon",
+            "yapay-zeka",
+            "estetik",
+            "sunum",
+            "hasta-sunumu"
+          ],
+          "md": {
+            "slug": "tr/treatment-plan/treatment-smileapp",
+            "fileUrl": "/help/tr/treatment-plan/tr-smileapp.md"
+          }
         }
       ]
     },
@@ -342,7 +368,7 @@
       "type": "folder",
       "title": "Döküman",
       "description": "PDF teklif dokümanı oluşturma, düzenleme ve paylaşma",
-      "order": 5,
+      "order": 3,
       "icon": {
         "type": "fa",
         "value": "fa-solid fa-file-pdf"
@@ -465,7 +491,7 @@
       "type": "folder",
       "title": "Klinik Ayarları",
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
-      "order": 3,
+      "order": 6,
       "icon": {
         "type": "fa",
         "value": "icons/clinic-profile.png"
@@ -500,7 +526,7 @@
           ],
           "md": {
             "slug": "tr/clinic-profile",
-            "fileUrl": "/help/tr/tr-clinic-profile.md"
+            "fileUrl": "/help/tr/clinic-profile/tr-clinic-profile.md"
           },
           "embeddedVideoUrl": "/videos/clinic-profile.mp4"
         },
@@ -525,7 +551,7 @@
           ],
           "md": {
             "slug": "tr/clinic-user-invite",
-            "fileUrl": "/help/tr/tr-clinic-user-invite.md"
+            "fileUrl": "/help/tr/clinic-profile/tr-clinic-user-invite.md"
           },
           "embeddedVideoUrl": "/videos/clinic-user-invite.mp4"
         }
@@ -533,13 +559,17 @@
     },
     {
       "id": "hotels-transfers",
-      "type": "folder",
+      "type": "doc",
       "title": "Otel & Transferler",
       "description": "Konaklama ve transfer süreçleri",
-      "order": 4,
+      "order": 5,
       "icon": {
         "type": "fa",
         "value": "icons/hotel.png"
+      },
+      "md": {
+        "slug": "tr/hotels-transfers",
+        "fileUrl": "/help/tr/tr-hotels-transfers.md"
       },
       "tags": [
         "otel",
@@ -548,40 +578,14 @@
         "hizmet",
         "fiyat"
       ],
-      "children": [
-        {
-          "id": "hotels-transfers-doc",
-          "type": "doc",
-          "title": "Otel & Transfer Yönetimi",
-          "description": "Otel ve transfer bilgileri nasıl yönetilir?",
-          "order": 1,
-          "icon": {
-            "type": "img",
-            "value": "icons/travel-luggage.png"
-          },
-          "tags": [
-            "otel",
-            "transfer",
-            "konaklama",
-            "hizmet",
-            "fiyat",
-            "kayıt",
-            "yönetim"
-          ],
-          "md": {
-            "slug": "tr/hotels-transfers",
-            "fileUrl": "/help/tr/tr-hotels-transfers.md"
-          },
-          "embeddedVideoUrl": "/videos/hotels-transfers.mp4"
-        }
-      ]
+      "embeddedVideoUrl": "/videos/hotels-transfers.mp4"
     },
     {
       "id": "templates",
       "type": "folder",
       "title": "Taslaklar",
       "description": "PDF tasarım şablonları yönetimi, dil seçimi, görsel tasarım ve gelişmiş sayfa oluşturma",
-      "order": 6,
+      "order": 4,
       "icon": {
         "type": "fa",
         "value": "fa-solid fa-palette"
@@ -601,7 +605,7 @@
           "id": "templates-management",
           "type": "doc",
           "title": "Taslak ve Dil Yönetimi",
-          "description": "PDF şablonları seçme, dil bazlı tasarım setleri ve varsayılan ayarlar",
+          "description": "Döküman şablonları seçme, dil bazlı tasarım setleri ve varsayılan ayarlar",
           "order": 1,
           "icon": {
             "type": "img",
@@ -622,11 +626,37 @@
           }
         },
         {
+          "id": "templates-advanced",
+          "type": "doc",
+          "title": "Gelişmiş Şablon Yönetimi ve Sayfa Oluşturma",
+          "description": "Sayfa oluşturma, kopyalama, diller arası transfer, sıralama ve varsayılan seçimi",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/templates-advanced.png"
+          },
+          "tags": [
+            "taslak",
+            "sayfa",
+            "kopyalama",
+            "klonlama",
+            "transfer",
+            "sıralama",
+            "varsayılan",
+            "dinamik-veri"
+          ],
+          "md": {
+            "slug": "tr/templates/templates-advanced",
+            "fileUrl": "/help/tr/templates/tr-templates-advanced.md"
+          },
+          "embeddedVideoUrl": "/videos/templates-advanced.mp4"
+        },
+        {
           "id": "templates-structure",
           "type": "doc",
           "title": "Sayfa Türleri ve Veri Mantığı",
           "description": "Tam sayfa ve veri sayfası türleri, sayfa yapısı ve güvenli düzenleme kuralları",
-          "order": 2,
+          "order": 3,
           "icon": {
             "type": "img",
             "value": "icons/templates-structure.png"
@@ -650,7 +680,7 @@
           "type": "doc",
           "title": "Görsel Tasarım Araçları ve Renk Yönetimi",
           "description": "Metin, görsel, şekil ve tasarım araçlarını kullanarak şablonları özelleştirme",
-          "order": 3,
+          "order": 4,
           "icon": {
             "type": "img",
             "value": "icons/templates-design.png"
@@ -669,32 +699,6 @@
             "fileUrl": "/help/tr/templates/tr-templates-design.md"
           },
           "embeddedVideoUrl": "/videos/templates-design.mp4"
-        },
-        {
-          "id": "templates-advanced",
-          "type": "doc",
-          "title": "Gelişmiş Şablon Yönetimi ve Sayfa Oluşturma",
-          "description": "Sayfa oluşturma, kopyalama, diller arası transfer, sıralama ve varsayılan seçimi",
-          "order": 4,
-          "icon": {
-            "type": "img",
-            "value": "icons/templates-advanced.png"
-          },
-          "tags": [
-            "taslak",
-            "sayfa",
-            "kopyalama",
-            "klonlama",
-            "transfer",
-            "sıralama",
-            "varsayılan",
-            "dinamik-veri"
-          ],
-          "md": {
-            "slug": "tr/templates/templates-advanced",
-            "fileUrl": "/help/tr/templates/tr-templates-advanced.md"
-          },
-          "embeddedVideoUrl": "/videos/templates-advanced.mp4"
         }
       ]
     },

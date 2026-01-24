@@ -1,28 +1,23 @@
-# DentalPlan: Tanı ve Diş Seçimi
+# 🔍 Teşhis (Diagnosis) ve Mevcut Durum
 
-DentalPlan üzerinde hastanın diş problemlerini (çürük, eksik diş, kırık vb.) görsel şema üzerinde işaretleyerek tedavi planının temelini oluşturduğunuz ekrandır.
+Tedavi planına başlamadan önce, hastanın ağzındaki mevcut durumu (Eksik diş, çürük, mevcut kuron vb.) sisteme tanıtmak için bu ekranı kullanırsınız.
 
-**Yol:** `Hastalar > [Hasta Adı] > Diagnosis`
+📍 **Yol:** `Hastalar > [Hasta Adı] > Diagnosis`
 
-## Tanı (Diagnosis) Ekleme
+## 1. 🦷 Diş Seçimi ve İşaretleme
+Ekranın ortasındaki diş şeması üzerinde işlem yapmak oldukça pratiktir:
 
-1.  Ortadaki **Diş Şeması** üzerinden problemli dişe tıklayın.
-2.  Ekranın sol panelindeki listeden teşhisi seçin (Örn: *Caries* - Çürük, *Missing* - Eksik).
-3.  Seçilen tanı, diş üzerinde görsel olarak işaretlenir.
+* **Tekli Seçim:** Mevcut sorunu işaretlemek için ilgili dişe **tek tık** yapmanız yeterlidir.
+* **Toplu Seçim (Sürükle):** Farenizin tuşuna basılı tutarak dişlerin üzerinde **sürükleyebilir**, birden fazla dişi aynı anda seçebilirsiniz.
+* **Seçimi Kaldırma:** Yanlış seçtiğiniz bir dişin üzerine **çift tıklayarak** veya Sağ panelden **"Seçimleri Temizle"** butonuna basarak seçimi iptal edebilirsiniz.
 
-> 💡 **İpucu:** Listede aradığınız tanıyı hızlıca bulmak için sol üstteki **Search** (Arama) kutusunu kullanabilirsiniz.
+## 2. 🩺 Teşhis (Tanı) Atama
+Dişleri seçtikten sonra sol panelden hastanın durumunu belirtin:
 
-## Kaydetme
+* **Listeden Seçim:** Sol menüdeki kategorilerden ilgili tanıyı (Örn: *Missing* - Eksik, *Caries* - Çürük) seçin.
+* **Arama:** Sol üstteki **"Diagnoz Ara"** kutusunu kullanarak aradığınız tanıyı hızlıca bulabilirsiniz.
 
-İşaretlemeler bittikten sonra sağ paneldeki **Save Diagnosis** butonuna tıklayın.
+## 4. 💾 Kaydetme ve Tedaviye Geçiş
+İşaretlemeleriniz bittiğinde, bu verileri tedavi planına aktarmak için:
 
-Bu işlem, belirlediğiniz tanıları hafızaya alır. Tanıları kaydetmek, bir sonraki adım olan **Treatment (Tedavi)** sekmesine geçebilmeniz için zorunludur.
-
-## Hatalı İşlemleri Düzeltme
-
-Yanlış işaretleme yaptıysanız sağ paneldeki butonları kullanın:
-
-* **Clear Selections:** Henüz kaydetmediğiniz son seçimleri temizler.
-* **Full Reset:** Kaydedilmiş olanlar dahil tüm diş şemasını sıfırlar.
-
-> ⚠️ **Dikkat:** Tanılarınızı kaydetmeden sayfadan ayrılırsanız seçimleriniz kaybolur. İşleminiz bitince mutlaka **Save Diagnosis** butonuna basın.
+* Sağ paneldeki **"Teşhisi Kaydet"** (Save Diagnosis) butonuna tıklayın.

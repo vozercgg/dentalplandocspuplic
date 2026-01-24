@@ -15,7 +15,7 @@ Kayıtlı bir hastayı bulmak için ekranın sol panelini kullanın. Arama çubu
 Listede olmayan bir hasta için sağ üst köşedeki **Yeni Hasta** butonuna tıklayın. Açılan pencerede aşağıdaki bilgileri eksiksiz girin:
 
 * 🏷️ **Ad Soyad**
-* 🚻 **Cinsiyet** (3D modellerin ve anatomik yapının doğru gelmesi için önemlidir)
+* 🚻 **Cinsiyet**
 * 📱 **İletişim Bilgileri** (E-posta ve Telefon)
 
 Gerekli alanları doldurduktan sonra **✅ Onayla** butonuna basarak kaydı tamamlayın.
