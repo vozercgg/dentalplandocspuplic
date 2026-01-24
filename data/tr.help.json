@@ -741,7 +741,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/templates-management.png"
+            "value": "icons/templates-language.png"
           },
           "tags": [
             "taslak",
@@ -765,7 +765,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/templates-general.png"
+            "value": "icons/templates-order.png"
           },
           "tags": [
             "taslak",
@@ -868,7 +868,7 @@
           "order": 1,
           "icon": {
             "type": "img",
-            "value": "icons/templates-design.png"
+            "value": "icons/editor-general.png"
           },
           "tags": [
             "tasarım",
@@ -895,7 +895,7 @@
           "order": 2,
           "icon": {
             "type": "img",
-            "value": "icons/editor-text-color.png"
+            "value": "icons/editor-color.png"
           },
           "tags": [
             "editör",
@@ -922,7 +922,7 @@
           "order": 3,
           "icon": {
             "type": "img",
-            "value": "icons/editor-media.png"
+            "value": "icons/editor-content.png"
           },
           "tags": [
             "editör",
