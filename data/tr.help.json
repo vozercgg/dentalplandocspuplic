@@ -487,11 +487,109 @@
       ]
     },
     {
+      "id": "hotels-transfers",
+      "type": "doc",
+      "title": "Otel & Transferler",
+      "description": "Konaklama ve transfer süreçleri",
+      "order": 4,
+      "icon": {
+        "type": "fa",
+        "value": "icons/hotel.png"
+      },
+      "md": {
+        "slug": "tr/hotels-transfers",
+        "fileUrl": "/help/tr/tr-hotels-transfers.md"
+      },
+      "tags": [
+        "otel",
+        "transfer",
+        "konaklama",
+        "hizmet",
+        "fiyat"
+      ],
+      "embeddedVideoUrl": "/videos/hotels-transfers.mp4"
+    },
+    {
+      "id": "plans-settings",
+      "type": "folder",
+      "title": "Tarife Ayarları",
+      "description": "Standart tedavi listesi, fiyatları ve diagnoz tanımlarını yönetme",
+      "order": 6,
+      "icon": {
+        "type": "fa",
+        "value": "fa-solid fa-cog"
+      },
+      "tags": [
+        "tarife",
+        "ayar",
+        "tedavi",
+        "fiyat",
+        "diagnoz",
+        "tanı",
+        "liste",
+        "yönetim"
+      ],
+      "children": [
+        {
+          "id": "plans-settings-treatment",
+          "type": "doc",
+          "title": "Tedavi ve Fiyat Listesi Ayarları",
+          "description": "Standart tedavi listesini, fiyatları, para birimini ve açıklamaları yönetme",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/plans-settings-treatment.png"
+          },
+          "tags": [
+            "tarife",
+            "tedavi",
+            "fiyat",
+            "liste",
+            "para-birimi",
+            "yönetim",
+            "açıklama",
+            "model"
+          ],
+          "md": {
+            "slug": "tr/plan-setting/plans-settings-treatment",
+            "fileUrl": "/help/tr/plan-setting/tr-plans-settings-treatment.md"
+          },
+          "embeddedVideoUrl": "/videos/plans-settings-treatment.mp4"
+        },
+        {
+          "id": "plans-settings-diagnosis",
+          "type": "doc",
+          "title": "Diagnoz (Tanı) Listesi Ayarları",
+          "description": "Klinik diagnoz tanılarını ve hasta açıklamalarını yönetme",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/plans-settings-diagnosis.png"
+          },
+          "tags": [
+            "tarife",
+            "diagnoz",
+            "tanı",
+            "liste",
+            "hasta",
+            "açıklama",
+            "teşhis",
+            "yönetim"
+          ],
+          "md": {
+            "slug": "tr/plan-setting/plans-settings-diagnosis",
+            "fileUrl": "/help/tr/plan-setting/tr-plans-settings-diagnosis.md"
+          },
+          "embeddedVideoUrl": "/videos/plans-settings-diagnosis.mp4"
+        }
+      ]
+    },
+    {
       "id": "clinic-settings",
       "type": "folder",
       "title": "Klinik Ayarları",
       "description": "Klinik bilgileri, kullanıcılar ve temel ayarlar",
-      "order": 6,
+      "order": 7,
       "icon": {
         "type": "fa",
         "value": "icons/clinic-profile.png"
@@ -558,34 +656,11 @@
       ]
     },
     {
-      "id": "hotels-transfers",
-      "type": "doc",
-      "title": "Otel & Transferler",
-      "description": "Konaklama ve transfer süreçleri",
-      "order": 5,
-      "icon": {
-        "type": "fa",
-        "value": "icons/hotel.png"
-      },
-      "md": {
-        "slug": "tr/hotels-transfers",
-        "fileUrl": "/help/tr/tr-hotels-transfers.md"
-      },
-      "tags": [
-        "otel",
-        "transfer",
-        "konaklama",
-        "hizmet",
-        "fiyat"
-      ],
-      "embeddedVideoUrl": "/videos/hotels-transfers.mp4"
-    },
-    {
       "id": "templates",
       "type": "folder",
       "title": "Taslaklar",
       "description": "PDF tasarım şablonları yönetimi, dil seçimi, görsel tasarım ve gelişmiş sayfa oluşturma",
-      "order": 4,
+      "order": 5,
       "icon": {
         "type": "fa",
         "value": "fa-solid fa-palette"
@@ -699,81 +774,6 @@
             "fileUrl": "/help/tr/templates/tr-templates-design.md"
           },
           "embeddedVideoUrl": "/videos/templates-design.mp4"
-        }
-      ]
-    },
-    {
-      "id": "plans-settings",
-      "type": "folder",
-      "title": "Tarife Ayarları",
-      "description": "Standart tedavi listesi, fiyatları ve diagnoz tanımlarını yönetme",
-      "order": 7,
-      "icon": {
-        "type": "fa",
-        "value": "fa-solid fa-cog"
-      },
-      "tags": [
-        "tarife",
-        "ayar",
-        "tedavi",
-        "fiyat",
-        "diagnoz",
-        "tanı",
-        "liste",
-        "yönetim"
-      ],
-      "children": [
-        {
-          "id": "plans-settings-treatment",
-          "type": "doc",
-          "title": "Tedavi ve Fiyat Listesi Ayarları",
-          "description": "Standart tedavi listesini, fiyatları, para birimini ve açıklamaları yönetme",
-          "order": 1,
-          "icon": {
-            "type": "img",
-            "value": "icons/plans-settings-treatment.png"
-          },
-          "tags": [
-            "tarife",
-            "tedavi",
-            "fiyat",
-            "liste",
-            "para-birimi",
-            "yönetim",
-            "açıklama",
-            "model"
-          ],
-          "md": {
-            "slug": "tr/plan-setting/plans-settings-treatment",
-            "fileUrl": "/help/tr/plan-setting/tr-plans-settings-treatment.md"
-          },
-          "embeddedVideoUrl": "/videos/plans-settings-treatment.mp4"
-        },
-        {
-          "id": "plans-settings-diagnosis",
-          "type": "doc",
-          "title": "Diagnoz (Tanı) Listesi Ayarları",
-          "description": "Klinik diagnoz tanılarını ve hasta açıklamalarını yönetme",
-          "order": 2,
-          "icon": {
-            "type": "img",
-            "value": "icons/plans-settings-diagnosis.png"
-          },
-          "tags": [
-            "tarife",
-            "diagnoz",
-            "tanı",
-            "liste",
-            "hasta",
-            "açıklama",
-            "teşhis",
-            "yönetim"
-          ],
-          "md": {
-            "slug": "tr/plan-setting/plans-settings-diagnosis",
-            "fileUrl": "/help/tr/plan-setting/tr-plans-settings-diagnosis.md"
-          },
-          "embeddedVideoUrl": "/videos/plans-settings-diagnosis.mp4"
         }
       ]
     }
