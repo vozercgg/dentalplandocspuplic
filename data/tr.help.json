@@ -42,7 +42,8 @@
           "md": {
             "slug": "tr/quickstart/quickstart-branding",
             "fileUrl": "/help/tr/quickstart/tr-quickstart-branding.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/quickstart/Quickstart-Branding.webm"
         },
         {
           "id": "quickstart-clinic-profile",
@@ -64,7 +65,8 @@
           "md": {
             "slug": "tr/quickstart/quickstart-clinic-profile",
             "fileUrl": "/help/tr/quickstart/tr-quickstart-clinic-profile.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/quickstart/Quickstart-Clinic-Profile.webm"
         },
         {
           "id": "quickstart-templates",
@@ -86,7 +88,8 @@
           "md": {
             "slug": "tr/quickstart/quickstart-templates",
             "fileUrl": "/help/tr/quickstart/tr-quickstart-templates.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/quickstart/Quickstart-Templates.webm"
         },
         {
           "id": "quickstart-plansetting",
@@ -108,7 +111,8 @@
           "md": {
             "slug": "tr/quickstart/quickstart-plansetting",
             "fileUrl": "/help/tr/quickstart/tr-quickstart-plansetting.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/quickstart/Quickstart-Plansetting.webm"
         },
         {
           "id": "quickstart-first-patient",
@@ -130,7 +134,8 @@
           "md": {
             "slug": "tr/quickstart/quickstart-first-patient",
             "fileUrl": "/help/tr/quickstart/tr-quickstart-first-patient.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/quickstart/Quickstart-First-Patient.webm"
         }
       ]
     },
@@ -172,6 +177,7 @@
         "slug": "tr/case-detail",
         "fileUrl": "/help/tr/tr-case-detail.md"
       },
+      "embeddedVideoUrl": "/videos/Case-Detail.webm",
       "tags": [
         "hasta",
         "hasta-detayı",
@@ -198,6 +204,7 @@
         "slug": "tr/case-plans",
         "fileUrl": "/help/tr/tr-case-plans.md"
       },
+      "embeddedVideoUrl": "/videos/Case-Plans.webm",
       "tags": [
         "hasta",
         "plan",
@@ -257,7 +264,7 @@
             "slug": "tr/diagnosis-add",
             "fileUrl": "/help/tr/treatment-plan/tr-diagnosis-add.md"
           },
-          "embeddedVideoUrl": "/videos/diagnosis-add.mp4"
+          "embeddedVideoUrl": "/videos/treatment-plan/Diagnosis-Add.webm"
         },
         {
           "id": "treatment-add",
@@ -282,7 +289,7 @@
             "slug": "tr/treatment-plan/treatment-add",
             "fileUrl": "/help/tr/treatment-plan/tr-treatment-add.md"
           },
-          "embeddedVideoUrl": "/videos/treatment-add.mp4"
+          "embeddedVideoUrl": "/videos/treatment-plan/Treatment-Add.webm"
         },
         {
           "id": "treatment-phases",
@@ -308,7 +315,7 @@
             "slug": "tr/treatment-plan/treatment-phases",
             "fileUrl": "/help/tr/treatment-plan/tr-treatment-phases.md"
           },
-          "embeddedVideoUrl": "/videos/treatment-phases.mp4"
+          "embeddedVideoUrl": "/videos/treatment-plan/Treatment-Phases.webm"
         },
         {
           "id": "treatment-discount",
@@ -333,7 +340,7 @@
             "slug": "tr/treatment-plan/treatment-discount",
             "fileUrl": "/help/tr/treatment-plan/tr-treatment-discount.md"
           },
-          "embeddedVideoUrl": "/videos/treatment-discount.mp4"
+          "embeddedVideoUrl": "/videos/treatment-plan/Treatment-Discount.webm"
         },
         {
           "id": "treatment-animation",
@@ -358,7 +365,7 @@
             "slug": "tr/treatment-animation",
             "fileUrl": "/help/tr/treatment-plan/tr-treatment-animation.md"
           },
-          "embeddedVideoUrl": "/videos/treatment-animation.mp4"
+          "embeddedVideoUrl": "/videos/treatment-plan/Treatment-Animation.webm"
         }
       ]
     },
@@ -406,6 +413,7 @@
         "slug": "tr/treatment-smileapp",
         "fileUrl": "/help/tr/tr-smileapp.md"
       },
+      "embeddedVideoUrl": "/videos/Smileapp.webm",
       "tags": [
         "smileapp",
         "gülüş",
@@ -462,7 +470,7 @@
             "slug": "tr/document/document-create",
             "fileUrl": "/help/tr/document/tr-document-create.md"
           },
-          "embeddedVideoUrl": "/videos/document-create.mp4"
+          "embeddedVideoUrl": "/videos/document/Document-Create.webm"
         },
         {
           "id": "document-reset",
@@ -487,7 +495,7 @@
             "slug": "tr/document/document-reset",
             "fileUrl": "/help/tr/document/tr-document-reset.md"
           },
-          "embeddedVideoUrl": "/videos/document-reset.mp4"
+          "embeddedVideoUrl": "/videos/document/Document-Reset.webm"
         },
         {
           "id": "document-edit",
@@ -513,7 +521,7 @@
             "slug": "tr/document/document-edit",
             "fileUrl": "/help/tr/document/tr-document-edit.md"
           },
-          "embeddedVideoUrl": "/videos/document-edit.mp4"
+          "embeddedVideoUrl": "/videos/document/Document-Edit.webm"
         },
         {
           "id": "document-share",
@@ -539,7 +547,7 @@
             "slug": "tr/document/document-share",
             "fileUrl": "/help/tr/document/tr-document-share.md"
           },
-          "embeddedVideoUrl": "/videos/document-share.mp4"
+          "embeddedVideoUrl": "/videos/document/Document-Share.webm"
         }
       ]
     },
@@ -564,7 +572,7 @@
         "hizmet",
         "fiyat"
       ],
-      "embeddedVideoUrl": "/videos/hotels-transfers.mp4"
+      "embeddedVideoUrl": "/videos/Hotels-Transfers.webm"
     },
     {
       "id": "plans-settings",
@@ -611,7 +619,7 @@
             "slug": "tr/plan-setting/plans-settings-treatment",
             "fileUrl": "/help/tr/plan-setting/tr-plans-settings-treatment.md"
           },
-          "embeddedVideoUrl": "/videos/plans-settings-treatment.mp4"
+          "embeddedVideoUrl": "/videos/plansetting/Plansetting-Treatment.webm"
         },
         {
           "id": "plans-settings-diagnosis",
@@ -637,7 +645,7 @@
             "slug": "tr/plan-setting/plans-settings-diagnosis",
             "fileUrl": "/help/tr/plan-setting/tr-plans-settings-diagnosis.md"
           },
-          "embeddedVideoUrl": "/videos/plans-settings-diagnosis.mp4"
+          "embeddedVideoUrl": "/videos/plansetting/Plansetting-Diagnosis.webm"
         }
       ]
     },
@@ -683,7 +691,7 @@
             "slug": "tr/clinic-profile",
             "fileUrl": "/help/tr/clinic-profile/tr-clinic-profile.md"
           },
-          "embeddedVideoUrl": "/videos/clinic-profile.mp4"
+          "embeddedVideoUrl": "/videos/clinic-profile/Clinic-Profile.webm"
         },
         {
           "id": "clinic-user-invite",
@@ -708,7 +716,7 @@
             "slug": "tr/clinic-user-invite",
             "fileUrl": "/help/tr/clinic-profile/tr-clinic-user-invite.md"
           },
-          "embeddedVideoUrl": "/videos/clinic-user-invite.mp4"
+          "embeddedVideoUrl": "/videos/clinic-profile/Clinic-Userinvite.webm"
         }
       ]
     },
@@ -782,7 +790,8 @@
           "md": {
             "slug": "tr/templates/templates-general",
             "fileUrl": "/help/tr/templates/tr-templates-general.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/templates/Templates-General.webm"
         },
         {
           "id": "templates-fullpage",
@@ -808,7 +817,8 @@
           "md": {
             "slug": "tr/templates/templates-fullpage",
             "fileUrl": "/help/tr/templates/tr-templates-fullpage.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/templates/Templates-Fullpage.webm"
         },
         {
           "id": "templates-datapage",
@@ -834,7 +844,8 @@
           "md": {
             "slug": "tr/templates/templates-datapage",
             "fileUrl": "/help/tr/templates/tr-templates-datapage.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/templates/Templates-Datapage.webm"
         }
       ]
     },
@@ -885,7 +896,7 @@
             "slug": "tr/templates/templates-design",
             "fileUrl": "/help/tr/editor/tr-templates-design.md"
           },
-          "embeddedVideoUrl": "/videos/templates-design.mp4"
+          "embeddedVideoUrl": "/videos/editor/Editor-Text.webm"
         },
         {
           "id": "editor-tools-text-color",
@@ -912,7 +923,8 @@
           "md": {
             "slug": "tr/editor/editor-tools-text-color",
             "fileUrl": "/help/tr/editor/tr-editor-tools-text-color.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Text.webm"
         },
         {
           "id": "editor-tools-media",
@@ -939,7 +951,8 @@
           "md": {
             "slug": "tr/editor/editor-tools-media",
             "fileUrl": "/help/tr/editor/tr-editor-tools-media.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Media.webm"
         },
         {
           "id": "editor-tools-layout",
@@ -967,7 +980,8 @@
           "md": {
             "slug": "tr/editor/editor-tools-layout",
             "fileUrl": "/help/tr/editor/tr-editor-tools-layout.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Layout.webm"
         },
         {
           "id": "editor-tools-data",
@@ -994,7 +1008,8 @@
           "md": {
             "slug": "tr/editor/editor-tools-data",
             "fileUrl": "/help/tr/editor/tr-editor-tools-data.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Data.webm"
         }
       ]
     }
