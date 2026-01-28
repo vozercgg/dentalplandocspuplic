@@ -153,6 +153,7 @@
         "slug": "tr/case-add",
         "fileUrl": "/help/tr/tr-case-add.md"
       },
+      "embeddedVideoUrl": "/videos/Case-Add.webm",
       "tags": [
         "hasta",
         "hasta-ekleme",
@@ -383,6 +384,7 @@
         "slug": "tr/treatment-edit",
         "fileUrl": "/help/tr/tr-treatment-edit.md"
       },
+      "embeddedVideoUrl": "/videos/Treatment-Edit.webm",
       "tags": [
         "tedavi",
         "düzenleme",
@@ -396,8 +398,7 @@
         "plan",
         "işlem",
         "tablo"
-      ],
-      "embeddedVideoUrl": "/videos/treatment-edit.mp4"
+      ]
     },
     {
       "id": "treatment-smileapp",
