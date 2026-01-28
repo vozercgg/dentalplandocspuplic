@@ -752,6 +752,7 @@
             "type": "img",
             "value": "icons/templates-language.png"
           },
+          "embeddedVideoUrl": "/videos/templates/Templates-Management.webm",
           "tags": [
             "taslak",
             "şablon",
@@ -788,11 +789,11 @@
             "otomatik-seçim",
             "dil-transfer"
           ],
+          "embeddedVideoUrl": "/videos/templates/Templates-General.webm",
           "md": {
             "slug": "tr/templates/templates-general",
             "fileUrl": "/help/tr/templates/tr-templates-general.md"
-          },
-          "embeddedVideoUrl": "/videos/templates/Templates-General.webm"
+          }
         },
         {
           "id": "templates-fullpage",
