@@ -22,6 +22,6 @@ Uzun açıklamalar ve standart paragraflar için kullanılır.
 ## 2. 🎨 Şablon Rengi (Template Color)
 Burası "Akıllı Renk Sistemi"nin merkezidir. İlk kurulumda belirlediğiniz kurumsal renkler buraya otomatik gelir, ancak dilediğiniz zaman değiştirebilirsiniz.
 
-* **🪄 Akıllı Tonlama:** Siz buradan bir ana renk (Örn: Lacivert) seçtiğinizde; sistem bu rengin **4 açık ve 4 koyu tonunu** otomatik olarak türetir.
+* **🪄 Akıllı Tonlama:** Siz buradan bir ana renk (Örn: Lacivert) seçtiğinizde; sistem bu rengin **açık ve 4 koyu tonlarını** otomatik olarak türetir.
 * **🧩 Otomatik Uyum:** Sayfadaki tüm Header/Footer şeritleri, tek düze renk yerine bu türetilen estetik tonlara bürünür.
 * **⚡ Değişiklik:** Ana rengi değiştirdiğinizde, "Özel Renk" atanmamış tüm objeler yeni renge saniyeler içinde uyum sağlar.

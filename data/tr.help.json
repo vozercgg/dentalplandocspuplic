@@ -949,11 +949,37 @@
           }
         },
         {
+          "id": "editor-data",
+          "type": "doc",
+          "title": "Akıllı Veri (Data Variables) ve Otomasyon",
+          "description": "Akıllı veri değişkenleri, bağlamsal değişkenler, tek şablon ile binlerce hasta için otomasyon",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/editor-data.png"
+          },
+          "tags": [
+            "editör",
+            "veri",
+            "data-variables",
+            "akıllı-veri",
+            "otomasyon",
+            "değişken",
+            "bağlamsal",
+            "dinamik",
+            "etiket"
+          ],
+          "md": {
+            "slug": "tr/editor/editor-data",
+            "fileUrl": "/help/tr/editor/tr-editor-data.md"
+          }
+        },
+        {
           "id": "editor-rightpanel",
           "type": "doc",
           "title": "Sağ Panel: Stil, Renk ve Katman Ayarları",
           "description": "Görsel düzenleme araçları, renk kilidi, özel renkler, katman yönetimi ve aksiyonlar",
-          "order": 4,
+          "order": 5,
           "icon": {
             "type": "img",
             "value": "icons/editor-layout.png"
@@ -978,7 +1004,7 @@
           "type": "doc",
           "title": "Kritik Kurallar ve Paylaşım",
           "description": "Kılavuz çizgisi uyarıları, data sayfası yasak bölge kuralı, kaydetme ve paylaşım",
-          "order": 5,
+          "order": 6,
           "tags": [
             "editör",
             "kurallar",
