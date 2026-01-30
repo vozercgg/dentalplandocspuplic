@@ -874,37 +874,34 @@
       ],
       "children": [
         {
-          "id": "templates-design",
+          "id": "editor-overview",
           "type": "doc",
-          "title": "Editör Araçları",
-          "description": "Metin, görsel, şekil ve tasarım araçlarını kullanarak şablonları özelleştirme",
+          "title": "Editör Genel Bakış ve Navigasyon",
+          "description": "Editör ekranı, kaydetme, sayfalar arası geçiş, sayfa ismi düzenleme ve dokümanı sıfırlama",
           "order": 1,
           "icon": {
             "type": "img",
             "value": "icons/editor-general.png"
           },
           "tags": [
-            "tasarım",
-            "renk",
-            "görsel",
-            "metin",
-            "araç",
-            "header-footer",
-            "tema",
-            "renk-yönetimi",
-            "katman"
+            "editör",
+            "genel-bakış",
+            "navigasyon",
+            "kaydetme",
+            "sayfa-geçişi",
+            "sıfırlama",
+            "doküman"
           ],
           "md": {
-            "slug": "tr/templates/templates-design",
-            "fileUrl": "/help/tr/editor/tr-templates-design.md"
-          },
-          "embeddedVideoUrl": "/videos/editor/Editor-Text.webm"
+            "slug": "tr/editor/editor-overview",
+            "fileUrl": "/help/tr/editor/tr-editor-overview.md"
+          }
         },
         {
-          "id": "editor-tools-text-color",
+          "id": "editor-toppanel",
           "type": "doc",
-          "title": "Metin Araçları ve Renk Yönetimi",
-          "description": "Yazı tiplerini yönetmek, metin eklemek ve kurumsal renklerinizi ayarlamak için üst ve sağ panelleri kullanımı",
+          "title": "Üst Panel: Metin ve Şablon Rengi",
+          "description": "Metin araçları (zengin metin ve basit metin), şablon rengi ve akıllı renk sistemi",
           "order": 2,
           "icon": {
             "type": "img",
@@ -912,27 +909,24 @@
           },
           "tags": [
             "editör",
+            "üst-panel",
             "metin",
-            "yazı",
-            "renk",
             "şablon-rengi",
-            "özel-renk",
             "zengin-metin",
             "basit-metin",
-            "tonlama",
-            "akıllı-uyum"
+            "akıllı-renk",
+            "tonlama"
           ],
           "md": {
-            "slug": "tr/editor/editor-tools-text-color",
-            "fileUrl": "/help/tr/editor/tr-editor-tools-text-color.md"
-          },
-          "embeddedVideoUrl": "/videos/editor/Editor-Text.webm"
+            "slug": "tr/editor/editor-toppanel",
+            "fileUrl": "/help/tr/editor/tr-editor-toppanel.md"
+          }
         },
         {
-          "id": "editor-tools-media",
+          "id": "editor-leftpanel",
           "type": "doc",
-          "title": "Görsel, Medya ve Şekiller",
-          "description": "Fotoğraf yükleme, stok görseller, şekiller ve desenler ile tasarımı zenginleştirme",
+          "title": "Sol Panel: Medya, Şekiller ve Veriler",
+          "description": "Fotoğraf yükleme, stok görseller, şekiller, header/footer, desenler ve akıllı veri değişkenleri",
           "order": 3,
           "icon": {
             "type": "img",
@@ -940,27 +934,25 @@
           },
           "tags": [
             "editör",
-            "görsel",
+            "sol-panel",
             "medya",
             "fotoğraf",
-            "stok-görsel",
             "şekil",
-            "desen",
-            "pattern",
-            "ikon",
-            "geometrik"
+            "veri",
+            "data-variables",
+            "header-footer",
+            "desen"
           ],
           "md": {
-            "slug": "tr/editor/editor-tools-media",
-            "fileUrl": "/help/tr/editor/tr-editor-tools-media.md"
-          },
-          "embeddedVideoUrl": "/videos/editor/Editor-Media.webm"
+            "slug": "tr/editor/editor-leftpanel",
+            "fileUrl": "/help/tr/editor/tr-editor-leftpanel.md"
+          }
         },
         {
-          "id": "editor-tools-layout",
+          "id": "editor-rightpanel",
           "type": "doc",
-          "title": "Sayfa Düzeni, Üst/Alt Bilgi ve Katmanlar",
-          "description": "Header ve footer ekleme, sayfa düzeni oluşturma, katman yönetimi ve objelerin sıralanması",
+          "title": "Sağ Panel: Stil, Renk ve Katman Ayarları",
+          "description": "Görsel düzenleme araçları, renk kilidi, özel renkler, katman yönetimi ve aksiyonlar",
           "order": 4,
           "icon": {
             "type": "img",
@@ -968,50 +960,39 @@
           },
           "tags": [
             "editör",
-            "düzen",
-            "layout",
-            "header",
-            "footer",
-            "üst-bilgi",
-            "alt-bilgi",
+            "sağ-panel",
+            "stil",
+            "renk",
             "katman",
-            "sıralama",
-            "ön-arka",
-            "ton-uyumu"
+            "görsel-düzenleme",
+            "renk-kilidi",
+            "özel-renk"
           ],
           "md": {
-            "slug": "tr/editor/editor-tools-layout",
-            "fileUrl": "/help/tr/editor/tr-editor-tools-layout.md"
-          },
-          "embeddedVideoUrl": "/videos/editor/Editor-Layout.webm"
+            "slug": "tr/editor/editor-rightpanel",
+            "fileUrl": "/help/tr/editor/tr-editor-rightpanel.md"
+          }
         },
         {
-          "id": "editor-tools-data",
+          "id": "editor-rules",
           "type": "doc",
-          "title": "Akıllı Veri (Data Variables) Kullanımı",
-          "description": "Hasta bilgileri, klinik verileri ve dinamik içerik için veri değişkenlerinin kullanımı",
+          "title": "Kritik Kurallar ve Paylaşım",
+          "description": "Kılavuz çizgisi uyarıları, data sayfası yasak bölge kuralı, kaydetme ve paylaşım",
           "order": 5,
-          "icon": {
-            "type": "img",
-            "value": "icons/editor-data.png"
-          },
           "tags": [
             "editör",
-            "veri",
-            "data",
-            "değişken",
-            "variable",
-            "hasta-adı",
-            "klinik-bilgisi",
-            "otomatik",
-            "dinamik",
-            "etiket"
+            "kurallar",
+            "kılavuz-çizgisi",
+            "data-sayfası",
+            "kaydetme",
+            "paylaşım",
+            "pdf",
+            "yazdırma"
           ],
           "md": {
-            "slug": "tr/editor/editor-tools-data",
-            "fileUrl": "/help/tr/editor/tr-editor-tools-data.md"
-          },
-          "embeddedVideoUrl": "/videos/editor/Editor-Data.webm"
+            "slug": "tr/editor/editor-rules",
+            "fileUrl": "/help/tr/editor/tr-editor-rules.md"
+          }
         }
       ]
     }
