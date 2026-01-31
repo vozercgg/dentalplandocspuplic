@@ -920,7 +920,8 @@
           "md": {
             "slug": "tr/editor/editor-toppanel",
             "fileUrl": "/help/tr/editor/tr-editor-toppanel.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Toppanel.webm"
         },
         {
           "id": "editor-leftpanel",
@@ -946,7 +947,8 @@
           "md": {
             "slug": "tr/editor/editor-leftpanel",
             "fileUrl": "/help/tr/editor/tr-editor-leftpanel.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Leftpanel.webm"
         },
         {
           "id": "editor-data",
@@ -972,7 +974,8 @@
           "md": {
             "slug": "tr/editor/editor-data",
             "fileUrl": "/help/tr/editor/tr-editor-data.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Data.webm"
         },
         {
           "id": "editor-rightpanel",
@@ -997,7 +1000,8 @@
           "md": {
             "slug": "tr/editor/editor-rightpanel",
             "fileUrl": "/help/tr/editor/tr-editor-rightpanel.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Rightpanel.webm"
         },
         {
           "id": "editor-rules",
@@ -1018,7 +1022,8 @@
           "md": {
             "slug": "tr/editor/editor-rules",
             "fileUrl": "/help/tr/editor/tr-editor-rules.md"
-          }
+          },
+          "embeddedVideoUrl": "/videos/editor/Editor-Rules.webm"
         }
       ]
     }
