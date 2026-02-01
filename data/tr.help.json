@@ -402,7 +402,7 @@
     },
     {
       "id": "treatment-smileapp",
-      "type": "doc",
+      "type": "folder",
       "title": "Gülüş Tasarımı (SmileApp)",
       "description": "Hastalarınızın tedavi sonucunu henüz koltuğa oturmadan görmelerini sağlayan, yapay zeka destekli gülüş tasarımı ve simülasyon modülü.",
       "order": 6,
@@ -410,11 +410,6 @@
         "type": "img",
         "value": "icons/smileapp.png"
       },
-      "md": {
-        "slug": "tr/treatment-smileapp",
-        "fileUrl": "/help/tr/tr-smileapp.md"
-      },
-      "embeddedVideoUrl": "/videos/Smileapp.webm",
       "tags": [
         "smileapp",
         "gülüş",
@@ -427,6 +422,127 @@
         "hasta-sunumu",
         "fotoğraf",
         "panel"
+      ],
+      "children": [
+        {
+          "id": "smileapp-general",
+          "type": "doc",
+          "title": "Genel Bakış",
+          "description": "SmileApp modülüne genel bakış, panel yapısı ve tasarım başlatma akışı",
+          "order": 1,
+          "icon": {
+            "type": "img",
+            "value": "icons/smileapp-general.png"
+          },
+          "tags": [
+            "smileapp",
+            "genel",
+            "bakış",
+            "panel",
+            "başlangıç",
+            "yapı"
+          ],
+          "md": {
+            "slug": "tr/smileapp/smileapp-general",
+            "fileUrl": "/help/tr/smileapp/tr-smileapp-general.md"
+          },
+          "embeddedVideoUrl": "/videos/smileapp/Smileapp-General.webm"
+        },
+        {
+          "id": "smileapp-photosrules",
+          "type": "doc",
+          "title": "Fotoğraf Yükleme ve Çekim Kuralları",
+          "description": "Başarılı bir gülüş tasarımı için doğru fotoğraf yükleme ve çekim kuralları",
+          "order": 2,
+          "icon": {
+            "type": "img",
+            "value": "icons/smileapp-photosrules.png"
+          },
+          "tags": [
+            "smileapp",
+            "fotoğraf",
+            "yükleme",
+            "çekim",
+            "kurallar",
+            "kadraj"
+          ],
+          "md": {
+            "slug": "tr/smileapp/smileapp-photosrules",
+            "fileUrl": "/help/tr/smileapp/tr-smileapp-photosrules.md"
+          }
+        },
+        {
+          "id": "smileapp-design-placement",
+          "type": "doc",
+          "title": "Taslak Yerleşimi ve İnce Ayar",
+          "description": "AI kalibrasyonu, diş taslağının yerleşimi ve dişlerin tek tek ayarlanması",
+          "order": 3,
+          "icon": {
+            "type": "img",
+            "value": "icons/smileapp-design-placement.png"
+          },
+          "tags": [
+            "smileapp",
+            "tasarım",
+            "yerleşim",
+            "ayar",
+            "diş",
+            "kalibrasyon"
+          ],
+          "md": {
+            "slug": "tr/smileapp/smileapp-design-placement",
+            "fileUrl": "/help/tr/smileapp/tr-smileapp-design-placement.md"
+          },
+          "embeddedVideoUrl": "/videos/smileapp/Smileapp-Design-Placement.webm"
+        },
+        {
+          "id": "smileapp-tools-retouch",
+          "type": "doc",
+          "title": "Renk, Gölge ve Rötuş",
+          "description": "Rötuş araçları, renk ve parlaklık ayarları, diş stili seçimi",
+          "order": 4,
+          "icon": {
+            "type": "img",
+            "value": "icons/smileapp-tools-retouch.png"
+          },
+          "tags": [
+            "smileapp",
+            "rötuş",
+            "renk",
+            "gölge",
+            "fırça",
+            "parlaklık"
+          ],
+          "md": {
+            "slug": "tr/smileapp/smileapp-tools-retouch",
+            "fileUrl": "/help/tr/smileapp/tr-smileapp-tools-retouch.md"
+          },
+          "embeddedVideoUrl": "/videos/smileapp/Smileapp-Tools-Retouch.webm"
+        },
+        {
+          "id": "smileapp-compare-export",
+          "type": "doc",
+          "title": "Karşılaştırma ve Çıktı Alma",
+          "description": "Öncesi/Sonrası karşılaştırma, kaydetme ve dışa aktarma işlemleri",
+          "order": 5,
+          "icon": {
+            "type": "img",
+            "value": "icons/smileapp-compare.png"
+          },
+          "tags": [
+            "smileapp",
+            "karşılaştırma",
+            "export",
+            "kaydetme",
+            "çıktı",
+            "before-after"
+          ],
+          "md": {
+            "slug": "tr/smileapp/smileapp-compare-export",
+            "fileUrl": "/help/tr/smileapp/tr-smileapp-compare-export.md"
+          },
+          "embeddedVideoUrl": "/videos/smileapp/Smileapp-Compare-Export.webm"
+        }
       ]
     },
     {
